@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-29T22:28:43.839338",
+    "report_id": "nlp_watch_1753820923",
+    "version": "1.0"
+  },
+  "summary": {
+    "total_documents_analyzed": 0,
+    "relevant_documents": 0,
+    "relevance_rate": 0.0,
+    "average_relevance_score": 0.0
+  },
+  "insights": {
+    "top_nlp_domains": [],
+    "emerging_techniques": [],
+    "high_impact_papers": []
+  },
+  "detailed_analysis": []
+}

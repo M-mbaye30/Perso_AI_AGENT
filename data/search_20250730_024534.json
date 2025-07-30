@@ -1,0 +1,1999 @@
+{
+  "query": "transformer models, BERT, GPT, T5, LLaMA, attention mechanism, large language models, natural language processing, machine translation, sentiment analysis, named entity recognition, text summarization, question answering, text classification, information extraction, text generation, language modeling, speech recognition, dialogue systems, chatbots, text-to-speech, speech-to-text, semantic parsing, text mining, text similarity, text clustering, text embedding, word embeddings, sentence embeddings, contextual embeddings, word2vec, GloVe, fastText, Agentic IAfew-shot learning, prompt engineering, fine-tuning, transfer learning, multimodal learning, traitement automatique des langues, TAL, intelligence artificielle linguistiqueLes agents intelligents, agents autonomes, agents conversationnels, agents de veille technologique, agents de recherche, agents d'information, agents d'analyse de données, agents de synthèse, agents de recommandation, agents de surveillance",
+  "timestamp": "20250730_024534",
+  "results_count": 332,
+  "results": [
+    {
+      "title": "一文了解Transformer全貌（图解Transformer）",
+      "url": "https://www.zhihu.com/tardis/zm/art/600773858",
+      "snippet": "自2017年Google推出Transformer以来，基于其架构的语言模型便如雨后春笋般涌现，其中Bert、T5等备受瞩目，而近期风靡全球的大模型ChatGPT和LLaMa更是大放异彩。网络上关于Transformer的解析文章非常大，但本文将力求用浅显易懂的语言，为大家深入解析Transformer的 …",
+      "timestamp": 1753836247.2194664
+    },
+    {
+      "title": "如何最简单、通俗地理解Transformer？ - 知乎",
+      "url": "https://www.zhihu.com/question/445556653",
+      "snippet": "Transformer最开始应用于NLP领域的机器翻译任务，但是它的通用性很好，除了NLP领域的其他任务，经过变体，还可以用于视觉领域，如ViT（Vision Transformer）。 这些特点让Transformer自2017年发布以来，持续受到关注，基于Transformer的工作和应用层出不穷。",
+      "timestamp": 1753836247.2197213
+    },
+    {
+      "title": "如何从浅入深理解 Transformer？ - 知乎",
+      "url": "https://www.zhihu.com/question/471328838/answers/updated",
+      "snippet": "Transformer 简介 想象一下你正在阅读一个很长的句子，比如： “在日本阿尔卑斯山深处发现的那只以其罕见的蓝色羽毛而闻名的鸟，今天早上终于被一位耐心的鸟类观察者拍摄到了。” 为了完全理解这个句子，你需要把“鸟”和句末的“被拍摄到了”联系起来，即使它们之间隔了很多描述性的词语 ...",
+      "timestamp": 1753836247.2198412
+    },
+    {
+      "title": "挑战 Transformer：全新架构 Mamba 详解",
+      "url": "https://www.zhihu.com/tardis/zm/art/684231320",
+      "snippet": "与类似规模的 Transformer 相比， Mamba 具有 5 倍的吞吐量， 而且 Mamba-3B 的效果与两倍于其规模的 Transformer 相当。 性能高、效果好，Mamba 成为新的研究热点。",
+      "timestamp": 1753836247.219921
+    },
+    {
+      "title": "如何从浅入深理解 Transformer？ - 知乎",
+      "url": "https://www.zhihu.com/question/471328838",
+      "snippet": "Transformer升级之路：2、博采众长的旋转式位置编码 猛猿：Transformer学习笔记一：Positional Encoding（位置编码） 解密旋转位置编码 解密旋转位置编码：数学基础、代码实现与绝对编码一体化探索_哔哩哔哩_bilibili RoPE旋转位置编码之LLaMA2实现方法--代码解读_哔哩哔哩 ...",
+      "timestamp": 1753836247.219994
+    },
+    {
+      "title": "The Future of Transformers: Emerging Trends and Research",
+      "url": "https://medium.com/@hassaanidrees7/the-future-of-transformers-emerging-trends-and-research-directions-d3eddce993f6",
+      "snippet": "Sep 20, 2024 · As the field continues to evolve, new trends and research directions are shaping the future of Transformers, pushing the boundaries of what these models can achieve. In this …",
+      "timestamp": 1753836248.009828
+    },
+    {
+      "title": "Advanced hybrid LSTM-transformer architecture for real-time …",
+      "url": "https://www.nature.com/articles/s41598-024-55483-x",
+      "snippet": "Feb 28, 2024 · Addressing this niche, our study introduces a novel LSTM-transformer hybrid architecture, uniquely specialized for multi-task real-time predictions.",
+      "timestamp": 1753836248.0099075
+    },
+    {
+      "title": "A comprehensive survey on applications of transformers for deep ...",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423031688",
+      "snippet": "May 1, 2024 · Our survey encompasses the identification of the top five application domains for Transformer-based models, namely: NLP, CV, multi-modality, audio and speech processing, …",
+      "timestamp": 1753836248.0099742
+    },
+    {
+      "title": "Research and application of Transformer based anomaly …",
+      "url": "https://arxiv.org/abs/2402.08975",
+      "snippet": "Feb 14, 2024 · Transformer, as one of the most advanced neural network models in Natural Language Processing (NLP), exhibits diverse applications in the field of anomaly detection. To …",
+      "timestamp": 1753836248.0100355
+    },
+    {
+      "title": "Promises and perils of using Transformer-based models for SE …",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39732064/",
+      "snippet": "In this paper, we analyze 519 papers published on this topic during 2017-2023, examine the suitability of model architectures for different tasks, summarize their resource consumption, …",
+      "timestamp": 1753836248.0101113
+    },
+    {
+      "title": "Accueil - Bert&You",
+      "url": "https://bert.fr/",
+      "snippet": "Je souhaite recevoir régulièrement des informations sur le Groupe BERT. Je peux mettre fin à cette autorisation à tout moment avec effet pour l’avenir. Pour plus d’information, …",
+      "timestamp": 1753836249.261423
+    },
+    {
+      "title": "Notre histoire - Bert Transport",
+      "url": "https://bert.fr/le-groupe/notre-histoire/",
+      "snippet": "Chez BERT&YOU®, depuis 1964, on transporte ! Des produits manufacturés, industriels finis ou semi-finis, des matières premières en bâchés ou fourgon, en plateau ou porte-container, des …",
+      "timestamp": 1753836249.2615368
+    },
+    {
+      "title": "Notre réseau - Bert Transport",
+      "url": "https://bert.fr/le-groupe/notre-reseau/",
+      "snippet": "Je souhaite recevoir régulièrement des informations sur le Groupe BERT. Je peux mettre fin à cette autorisation à tout moment avec effet pour l’avenir. Pour plus d’information, …",
+      "timestamp": 1753836249.26162
+    },
+    {
+      "title": "BERT&YOU s'étend dans la Drôme - Bert Transport",
+      "url": "https://bert.fr/bertyou-setend-dans-la-drome/",
+      "snippet": "Déjà fortement implanté en Drôme –Ardèche avec plus de 135.000m2 de surfaces logistiques, BERT&YOU poursuit sa croissance en activités logistiques en prenant à bail un nouveau site …",
+      "timestamp": 1753836249.2616944
+    },
+    {
+      "title": "Nouvelle plateforme logistique BERT&YOU",
+      "url": "https://bert.fr/nouvelle-plateforme-logistique-bertyou/",
+      "snippet": "Nos équipes traitent et préparent plus de 2.000 commandes / jour pour approvisionner les 110 magasins de l’enseigne Richardson partout en France. Et depuis le 15 octobre, c’est une …",
+      "timestamp": 1753836249.2617648
+    },
+    {
+      "title": "OpenAI",
+      "url": "https://chat.openai.com/auth/login?next=/g/g-xV9wWpSVC-javascript-gpt",
+      "snippet": "Nous voudrions effectuer une description ici mais le site que vous consultez ne nous en laisse pas la possibilité.",
+      "timestamp": 1753836254.4487777
+    },
+    {
+      "title": "GPT-4 - OpenAI",
+      "url": "https://openai.com/index/gpt-4/",
+      "snippet": "Following the research path from GPT, GPT‑2, and GPT‑3, our deep learning approach leverages more data and more computation to create increasingly sophisticated and capable language …",
+      "timestamp": 1753836256.5034993
+    },
+    {
+      "title": "OpenAI GPT Models in 2024: What's in it for Data Scientists",
+      "url": "https://vitalflux.com/openai-gpt-models-2024-whats-for-data-scientists/",
+      "snippet": "Dec 30, 2024 · Explore OpenAI's 2024 advancements, including GPT-4o, GPT-4o Mini, o1, and o3 models, revolutionizing data science with enhanced reasoning & multimodal AI",
+      "timestamp": 1753836256.50361
+    },
+    {
+      "title": "ChatGPT for Research: Do's and Don'ts in 2024 - blog.litmaps.com",
+      "url": "https://blog.litmaps.com/p/chatgpt-for-research-in-2024-dos",
+      "snippet": "Mar 8, 2024 · ChatGPT, and AI tools in general, have evolved dramatically over the last year, as have their uses for scientific work. Here's what researchers should know about using these tools …",
+      "timestamp": 1753836256.5036767
+    },
+    {
+      "title": "How to Harness the Power of GPT for Scientific Research: A ...",
+      "url": "https://link.springer.com/article/10.1007/s13139-024-00876-z",
+      "snippet": "Aug 12, 2024 · This review article explores the potential of GPT as a research tool, focusing on the core functionalities, key features, and real-world applications of the GPT-4 model.",
+      "timestamp": 1753836256.5037396
+    },
+    {
+      "title": "GPT-4 Technical Report - ResearchGate",
+      "url": "https://www.researchgate.net/publication/383739523_GPT-4_Technical_Report",
+      "snippet": "Mar 15, 2023 · We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs.",
+      "timestamp": 1753836256.5037985
+    },
+    {
+      "title": "T5和BART有什么区别？ - 知乎",
+      "url": "https://www.zhihu.com/question/607125588",
+      "snippet": "T5实验训练时间更长，增加批次大小，扩大模型，甚至将多个模型融合在一起。 这就像T5已经成为一个语言巨人，在规模和力量上不断增长。",
+      "timestamp": 1753836257.7144258
+    },
+    {
+      "title": "铝型材为什么指定要6063-T5？ - 知乎",
+      "url": "https://www.zhihu.com/question/632395293",
+      "snippet": "Nov 28, 2023 · 6063-T5普遍用于建筑铝型材，比如橱柜，衣柜，拉手，衣通，门窗，合页，照明等等，适用用途广泛。 为什么指定用6063这种材质呢？因为这种材质做 氧化表面处理 比较 …",
+      "timestamp": 1753836257.7145374
+    },
+    {
+      "title": "论文发表的六个级别，你的文章属于第几级？ - 知乎",
+      "url": "https://www.zhihu.com/question/500681588",
+      "snippet": "（1）公开发表的论文分为六个级别（类）： 第一级－T类：特种刊物论文，指在《SCIENCE》和《NATURE》两本期刊上发表的论文。 第二级－A类：权威核心刊物论文，指被国际通用 …",
+      "timestamp": 1753836257.7146099
+    },
+    {
+      "title": "MoE (Mixture-of-Experts)大模型架构的优势是什么？为什么？",
+      "url": "https://www.zhihu.com/tardis/bd/ans/3364787819",
+      "snippet": "MoE 应用于大模型，GPT-4并不是第一个。在2022年的时候，Google 就提出了MoE大模型 Switch Transformer，模型大小是1571B，Switch Transformer在预训练任务上显示出比 T5 …",
+      "timestamp": 1753836257.7146735
+    },
+    {
+      "title": "TX-Board - das T5 / T6 / Multivan / T7 - Forum",
+      "url": "https://tx-board.de/",
+      "snippet": "Mar 11, 2025 · T5 / T6 / MV21 California Forum TX-Board Kategorie für den California. T5 - California Das Forum für alles was speziell mit dem T5 California zu tun hat.",
+      "timestamp": 1753836257.7147367
+    },
+    {
+      "title": "The Llama 3 Herd of Models | Research - AI at Meta",
+      "url": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/",
+      "snippet": "Jul 23, 2024 · Modern artificial intelligence (AI) systems are powered by foundation models. This paper presents a new set of foundation models, called Llama 3. It is a herd of language …",
+      "timestamp": 1753836259.7571833
+    },
+    {
+      "title": "The Llama 3 Herd of Models. Paper Review - Medium",
+      "url": "https://medium.com/@EleventhHourEnthusiast/the-llama-3-herd-of-models-2f62252ce1c8",
+      "snippet": "Aug 6, 2024 · As detailed by Dubey et al. (2024), Meta’s new model exhibits exceptional capabilities in natural language processing. With the largest model containing 405 billion …",
+      "timestamp": 1753836259.757264
+    },
+    {
+      "title": "The future of AI: Built with Llama",
+      "url": "https://ai.meta.com/blog/future-of-ai-built-with-llama/",
+      "snippet": "Dec 19, 2024 · Keeping up the pace of innovation, we announced Llama 3.2 at Connect 2024, sharing our first ever multimodal models, as well as small and medium-sized and lightweight, …",
+      "timestamp": 1753836259.757332
+    },
+    {
+      "title": "The LLaMA Herd | Yue Shui Blog",
+      "url": "https://syhya.github.io/posts/2025-04-06-llama/",
+      "snippet": "Apr 6, 2025 · LLaMA 3 (Grattafiori et al., 2024) is the new generation of open-source large model series successively released by Meta starting from April 2024. It features optimizations in …",
+      "timestamp": 1753836259.757395
+    },
+    {
+      "title": "Me LLaMA: Foundation Large Language Models for Medical …",
+      "url": "https://arxiv.org/abs/2402.12749",
+      "snippet": "Feb 20, 2024 · This study presents Me-LLaMA, a new medical LLM family based on open-source LLaMA models, optimized for medical text analysis and diagnosis by leveraging large-scale, …",
+      "timestamp": 1753836259.7574713
+    },
+    {
+      "title": "Lightning Attention 是如何克服传统线性注意力机制需要累加求和的 …",
+      "url": "https://www.zhihu.com/question/9740764576",
+      "snippet": "Lightning Attention 是如何克服传统线性注意力机制需要累加求和的缺陷的？ 传统Linear Attention虽然计算复杂度降到了O (n)，但是在因果 (causal)推理时，往往需要cumsum …",
+      "timestamp": 1753836261.0536497
+    },
+    {
+      "title": "Symbole Attention dans Word [Résolu] - CommentCaMarche",
+      "url": "https://forums.commentcamarche.net/forum/affich-13466925-symbole-attention-dans-word",
+      "snippet": "Re, Suite concernant le symbole \"Attention\" (! dans un triangle): bien entendu vous pourrez le faire de la hauteur et de la couleur voulues comme n'importe lequel …",
+      "timestamp": 1753836261.053768
+    },
+    {
+      "title": "通俗理解，Sparse Attention是什么原理？ - 知乎",
+      "url": "https://www.zhihu.com/question/12682779853",
+      "snippet": "Sparse Attention的核心思想 Sparse Attention 的核心思想是避免计算每对元素之间的关系，而是仅计算序列中最重要的元素之间的关系。这样可以显著降低计算复杂度和 …",
+      "timestamp": 1753836261.0538516
+    },
+    {
+      "title": "深度学习attention机制中的Q,K,V分别是从哪来的？ - 知乎",
+      "url": "https://www.zhihu.com/question/325839123",
+      "snippet": "深度学习attention机制中的Q,K,V分别是从哪来的？ 找了各种资料，也读了论文原文，都是详细介绍了怎么把Q,K,V通过什么样的运算得到输出结果，始终没有一个地方有解 …",
+      "timestamp": 1753836261.0539274
+    },
+    {
+      "title": "目前主流的attention方法都有哪些？ - 知乎",
+      "url": "https://www.zhihu.com/question/68482809/answer/597944559?utm_oi=557809483099721728",
+      "snippet": "最近以QA形式写了一篇 nlp中的Attention注意力机制+Transformer详解 分享一下自己的观点，目录如下： 一、Attention机制剖析 1、为什么要引入Attention机制？ 2、Attention机 …",
+      "timestamp": 1753836261.0540488
+    },
+    {
+      "title": "Grand modèle de langage — Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Grand_modèle_de_langage",
+      "snippet": "Les LLM sont apparus vers 2018 et ont été utilisés pour la mise en œuvre d' agents conversationnels. Ils excellent dans un large éventail de tâches.",
+      "timestamp": 1753836262.4981384
+    },
+    {
+      "title": "Large language model - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "snippet": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, …",
+      "timestamp": 1753836262.498227
+    },
+    {
+      "title": "Grand modèle de langage (LLM) : Tout ce qu'il faut savoir",
+      "url": "https://datascientest.com/large-language-models-tout-savoir",
+      "snippet": "2 days ago · Malgré la complexité du langage humain, les machines sont désormais capables d’en comprendre les …",
+      "timestamp": 1753836262.4982977
+    },
+    {
+      "title": "What is a Large Language Model (LLM) - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/artificial-intelligence/large-language-model-llm/",
+      "snippet": "Jul 23, 2025 · What are Large Language Models (LLMs)? A large language model is a type of artificial intelligence algorithm that applies neural network techniques with …",
+      "timestamp": 1753836262.4983664
+    },
+    {
+      "title": "Introduction to Large Language Models - Google Developers",
+      "url": "https://developers.google.com/machine-learning/resources/intro-llms",
+      "snippet": "Sep 6, 2024 · Modeling human language at scale is a highly complex and resource-intensive endeavor. The path to reaching the current capabilities of language …",
+      "timestamp": 1753836262.49843
+    },
+    {
+      "title": "Large-language models: The game-changers for materials science …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949747724000344",
+      "snippet": "Dec 1, 2024 · Therefore, we will investigate the profound changes that LLMs may entail for materials science research from three perspectives: LLMs for knowledge acquisition, LLMs for …",
+      "timestamp": 1753836263.0636122
+    },
+    {
+      "title": "Large language models (LLMs): survey, technical frameworks, and …",
+      "url": "https://link.springer.com/article/10.1007/s10462-024-10888-y",
+      "snippet": "Aug 18, 2024 · LLMs have emerged as a significant area of AI research due to their superior performance in understanding and generating human-like text compared to smaller models.",
+      "timestamp": 1753836263.0636873
+    },
+    {
+      "title": "The 2024 Landscape of Large Language Model Research: A …",
+      "url": "https://bhaktavaschal.substack.com/p/the-2024-landscape-of-large-language",
+      "snippet": "2024 has been a pivotal year in LLM research, marked by advancements in model architectures, finetuning strategies, alignment techniques, dataset development, and inference-time …",
+      "timestamp": 1753836263.06376
+    },
+    {
+      "title": "Large language models in 2024 - FastML",
+      "url": "https://www.fastml.com/large-language-models-in-2024/",
+      "snippet": "Oct 9, 2024 · To think realistically about large language models, it is helpful to understand some basic facts about their nature, stemming from the way people train them. We will focus on two …",
+      "timestamp": 1753836263.063819
+    },
+    {
+      "title": "A survey on multimodal large language models - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39679213/",
+      "snippet": "Nov 12, 2024 · In this paper, we aim to trace and summarize the recent progress of MLLMs. First, we present the basic formulation of the MLLM and delineate its related concepts, including …",
+      "timestamp": 1753836263.063877
+    },
+    {
+      "title": "Advancements in natural language processing: Implications, …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772503024000598",
+      "snippet": "Dec 1, 2024 · The advancements in Natural Language Processing (NLP), namely in transformer-based models and deep learning techniques, have demonstrated considerable potential in …",
+      "timestamp": 1753836265.886264
+    },
+    {
+      "title": "Natural Language Processing (NLP): Advancements, …",
+      "url": "https://pubs.aip.org/aip/acp/article/3134/1/020005/3318899/Natural-Language-Processing-NLP-Advancements",
+      "snippet": "Nov 5, 2024 · This article presents a comprehensive survey of papers on Natural Language Processing highlighting its main concepts, advancements and applications in various fields.",
+      "timestamp": 1753836265.8863542
+    },
+    {
+      "title": "Natural Language Processing (NLP) trends 2024 - byteplus.com",
+      "url": "https://www.byteplus.com/en/topic/393558?title=natural-language-processing-nlp-trends-2024-shaping-the-future-of-ai-communication",
+      "snippet": "Apr 24, 2025 · Explore the latest trends in Natural Language Processing (NLP) for 2024, including advancements, applications, and future predictions.",
+      "timestamp": 1753836265.8864844
+    },
+    {
+      "title": "Natural Language, AI, and Quantum Computing in 2024: …",
+      "url": "https://arxiv.org/abs/2403.19758v1",
+      "snippet": "Mar 28, 2024 · Language processing is at the heart of current developments in artificial intelligence, and quantum computers are becoming available at the same time. This has led to …",
+      "timestamp": 1753836265.886576
+    },
+    {
+      "title": "2024 Predictions in AI and Natural Language Processing (NLP)",
+      "url": "https://www.dataversity.net/2024-predictions-in-ai-and-natural-language-processing-nlp/",
+      "snippet": "Jan 26, 2024 · Looking at where things have come in the last year, we wanted to try our hand again at forecasting where we see the market heading in 2024 in AI and natural language …",
+      "timestamp": 1753836265.8866498
+    },
+    {
+      "title": "为什么很多人认为TPAMI是人工智能所有领域的顶刊？ - 知乎",
+      "url": "https://www.zhihu.com/question/6463687174",
+      "snippet": "Dec 15, 2024 · 1. 历史渊源 TPAMI全称是IEEE Transactions on Pattern Analysis and Machine Intelligence，从名字就能看出来，它关注的是\"模式分析\"和\"机器智能\"这两个大方向。 这两个方向恰 …",
+      "timestamp": 1753836267.0601697
+    },
+    {
+      "title": "什么是 Machine Unlearning? - 知乎",
+      "url": "https://www.zhihu.com/question/1900776580537619430",
+      "snippet": "Machine Unlearning 是一个新兴的研究方向，关注数据保护和模型运行细节，适合对隐私安全感兴趣的人士探索。",
+      "timestamp": 1753836267.0602555
+    },
+    {
+      "title": "电脑win11系统没有安装任何虚拟机，打开程序时提示请不要在虚拟机中运行此程序， …",
+      "url": "https://zhidao.baidu.com/question/1440512061475133539.html",
+      "snippet": "然后， 转到“HKEY_LOCAL_MACHINE”>“SYSTEM”>“CurrentControlSet”>“Control”>“Lsa” a. 右键单击 >“新建”>“DWORD (32 位)值” b. 将此值命名为 LsaCfgFlags 默认情况下，它应为 0， …",
+      "timestamp": 1753836267.060326
+    },
+    {
+      "title": "team machine-wide installer是啥？_百度知道",
+      "url": "https://zhidao.baidu.com/question/1970941730528655300.html",
+      "snippet": "Aug 14, 2024 · Team Machine-Wide Installer 是Office 365套装中的一项功能，它常常在后台自动进行更新安装。为避免频繁且不必要的打扰，用户可以选择删除其升级文件，彻底卸载该组件，并在任 …",
+      "timestamp": 1753836267.0603905
+    },
+    {
+      "title": "What is sentiment analysis? - IBM",
+      "url": "https://www.ibm.com/think/topics/sentiment-analysis",
+      "snippet": "Aug 24, 2023 · Sentiment analysis is the process of analyzing large volumes of text to determine whether it expresses a positive, negative or neutral sentiment.",
+      "timestamp": 1753836268.7273808
+    },
+    {
+      "title": "センチメント分析とは| IBM",
+      "url": "https://www.ibm.com/jp-ja/topics/sentiment-analysis",
+      "snippet": "感情分析とそれを支えるテクノロジーは急速に成長していますが、まだ比較的新しい分野です。 Liu Bing（2020）の著書「Sentiment Analysis（センチメント分析）」によると、この用語が広く使 …",
+      "timestamp": 1753836268.7274597
+    },
+    {
+      "title": "Qu'est-ce que l'analyse des sentiments - IBM",
+      "url": "https://www.ibm.com/fr-fr/topics/sentiment-analysis",
+      "snippet": "L'analyse des sentiments consiste à analyser de grands volumes de texte pour déterminer si le contenu exprime un sentiment positif, négatif ou neutre.",
+      "timestamp": 1753836268.7275443
+    },
+    {
+      "title": "中文情感分析 (Sentiment Analysis) 的难点在哪？现在做得比较好 …",
+      "url": "https://www.zhihu.com/question/20700012",
+      "snippet": "情感分析（Sentiment Analysis） 第一步，就是确定一个词是积极还是消极，是主观还是客观。这一步主要依靠词典。 英文已经有伟大词典资源：SentiWordNet. 无论积极消极、主观客观，还有词语的情 …",
+      "timestamp": 1753836268.7276073
+    },
+    {
+      "title": "深度学习中的情感分析（sentiment）和情绪分析 (emotion)的区别 …",
+      "url": "https://www.zhihu.com/question/391603553",
+      "snippet": "深度学习中的情感分析（sentiment）和情绪分析 (emotion)的区别是什么？ 在看一些情感分析的paper时经常会出现emotion和sentiment两种角度分析方式，他们有什么联系与区别呢？ 显示全部  …",
+      "timestamp": 1753836268.727665
+    },
+    {
+      "title": "A Survey of Sentiment Analysis: Approaches, Datasets, and Future Re…",
+      "url": "https://www.mdpi.com/2076-3417/13/7/4550",
+      "snippet": "Feb 20, 2023 · Sentiment analysis is a critical subfield of natural language processing that focuses on categorizing text into three …",
+      "timestamp": 1753836268.917812
+    },
+    {
+      "title": "Sentiment analysis methods, applications, and challenges: A syst…",
+      "url": "https://www.sciencedirect.com/science/article/pii/S131915782400137X",
+      "snippet": "Apr 1, 2024 · This research not only contributes to the existing sentiment analysis knowledge body but also provides references to scholars …",
+      "timestamp": 1753836268.9179075
+    },
+    {
+      "title": "\"Challenges and future in deep learning for sentiment analysis: a ...",
+      "url": "https://link.springer.com/article/10.1007/s10462-023-10651-9",
+      "snippet": "Furthermore, we provide in-depth investigation into sentiment analysis, categorizing prevalent data, pre-processing methods, text …",
+      "timestamp": 1753836268.9179838
+    },
+    {
+      "title": "Sentiment analysis with machine learning and deep learning: A surve…",
+      "url": "https://ijsra.net/sites/default/files/IJSRA-2024-1205.pdf",
+      "snippet": "In this comprehensive survey, we provide an in-depth exploration of both traditional machine learning and modern deep learning approaches …",
+      "timestamp": 1753836268.9180536
+    },
+    {
+      "title": "Comprehensive Study on Sentiment Analysis: From Rule-based to moder…",
+      "url": "https://arxiv.org/abs/2409.09989",
+      "snippet": "Sep 16, 2024 · Key challenges are discussed, including handling bilingual texts, detecting sarcasm, and addressing biases. The paper …",
+      "timestamp": 1753836268.9181182
+    },
+    {
+      "title": "Lösungen für alle PDF Probleme - 100% kostenlos - PDF24",
+      "url": "https://www.pdf24.org/de/",
+      "snippet": "PDF24 Creator Kostenlose Software für Windows mit allen Funktionen zum Download PDF24 Creator",
+      "timestamp": 1753836270.0825374
+    },
+    {
+      "title": "PDF24 Tools: Kostenlose PDF Lösungen für alle PDF Probleme",
+      "url": "https://tools.pdf24.org/de/",
+      "snippet": "PDF24 unterstützt alle aktuellen Betriebssysteme und Browser. Egal ob unter Windows, Linux, auf MACs oder …",
+      "timestamp": 1753836270.0826454
+    },
+    {
+      "title": "PDF24 Creator - Download - CHIP",
+      "url": "https://www.chip.de/downloads/PDF24-Creator_43805654.html",
+      "snippet": "Mit dem PDF24 Creator erhalten Sie einen großen Funktionsumfang. So können Sie PDFs erstellen, …",
+      "timestamp": 1753836270.0827234
+    },
+    {
+      "title": "PDF24 Creator – Herunterladen und Installieren unter Windows ...",
+      "url": "https://apps.microsoft.com/detail/xpfd51h3vqzfm0?hl=de-DE&gl=DE",
+      "snippet": "Kostenlose und benutzerfreundliche PDF Lösung mit vielen Funktionen. PDF24 Creator bringt alle PDF24 Tools als …",
+      "timestamp": 1753836270.0828352
+    },
+    {
+      "title": "PDF zusammenfügen - schnell, online, kostenlos - PDF24",
+      "url": "https://tools.pdf24.org/de/pdf-zusammenfuegen",
+      "snippet": "Das PDF zusammenfügen ist mit PDF24 so einfach wie möglich. Sie müssen nichts installieren oder einstellen, sondern …",
+      "timestamp": 1753836270.082907
+    },
+    {
+      "title": "Translate written words - Computer - Google Translate Help",
+      "url": "https://support.google.com/translate/answer/6142478?hl=en&co=GENIE.Platform=Desktop",
+      "snippet": "Translate longer text You can translate up to 5,000 characters at a time when you copy and paste your text. On your computer, open Google Translate. At the top of the screen, choose the …",
+      "timestamp": 1753836271.5135765
+    },
+    {
+      "title": "Excel中text函数的使用方法 - 百度经验",
+      "url": "https://jingyan.baidu.com/article/b907e627cd7ccf46e6891c58.html",
+      "snippet": "你还在为Excel中text函数的使用方法而苦恼吗，今天小编教你Excel中text函数的使用方法，让你告别Excel中text函数的使用方法的烦恼。 经验主要从四方面对Excel函数进行讲解，1.函数的含义，2.函 …",
+      "timestamp": 1753836271.5136786
+    },
+    {
+      "title": "Send & read text & voice messages in Google Messages",
+      "url": "https://support.google.com/messages/answer/6080324?hl=en",
+      "snippet": "You can send and receive text messages with friends and contacts on Google Messages.",
+      "timestamp": 1753836271.5137818
+    },
+    {
+      "title": "retrieve accidentally deleted text messages - Android Community",
+      "url": "https://support.google.com/android/thread/313850911/retrieve-accidentally-deleted-text-messages?hl=en",
+      "snippet": "To retrieve accidentally deleted text messages on your Android device, you have several options: Check the Recycle Bin or Trash folder in your messaging app. Some Android phones, like …",
+      "timestamp": 1753836271.5138772
+    },
+    {
+      "title": "TEXT - Aide Éditeurs Google Docs",
+      "url": "https://support.google.com/docs/answer/3094139?hl=fr",
+      "snippet": "TEXT(DATE(1969,7,20),\"yyyy-MM\") Syntaxe TEXT(nombre, format) nombre - Nombre, date ou heure à mettre en forme. format - Schéma selon lequel mettre en forme le nombre, entre …",
+      "timestamp": 1753836271.5139964
+    },
+    {
+      "title": "知乎 - 有问题，就会有答案",
+      "url": "https://www.zhihu.com/?lang=zh-Hant",
+      "snippet": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解 …",
+      "timestamp": 1753836273.0075214
+    },
+    {
+      "title": "question，issue，problem 三者的主要区别是什么？ - 知乎",
+      "url": "https://www.zhihu.com/question/313325506",
+      "snippet": "question是疑问。 问得好Good question；我有个问题 I have a question; 我可以问一下吗May I ask a question? Problem是麻烦。 只有一个小麻烦 …",
+      "timestamp": 1753836273.0076113
+    },
+    {
+      "title": "知乎 - 有问题，就会有答案",
+      "url": "https://www.zhihu.com/",
+      "snippet": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解 …",
+      "timestamp": 1753836273.0076847
+    },
+    {
+      "title": "知乎 - 知乎",
+      "url": "https://www.zhihu.com/selection/",
+      "snippet": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质 …",
+      "timestamp": 1753836273.007751
+    },
+    {
+      "title": "Conversation Questions for the ESL/EFL Classroom (I-TESL-J)",
+      "url": "http://iteslj.org/questions/////////",
+      "snippet": "Conversation Questions for the ESL/EFL Classroom A Project of The Internet TESL Journal If this is your first time here, then …",
+      "timestamp": 1753836273.0078175
+    },
+    {
+      "title": "[2407.09413] SPIQA: A Dataset for Multimodal Question Answering …",
+      "url": "https://arxiv.org/abs/2407.09413",
+      "snippet": "Jul 12, 2024 · Abstract: Seeking answers to questions within long scientific research articles is a crucial area of study that aids readers in quickly addressing their inquiries. However, existing …",
+      "timestamp": 1753836273.442238
+    },
+    {
+      "title": "LLM-Based Multi-Hop Question Answering with Knowledge …",
+      "url": "https://aclanthology.org/2024.findings-emnlp.844/",
+      "snippet": "6 days ago · To tackle these challenges, this paper introduces Graph Memory-based Editing for Large Language Models (GMeLLo), a straightforward and effective method that merges the …",
+      "timestamp": 1753836273.442324
+    },
+    {
+      "title": "A comprehensive survey on answer generation methods using NLP",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949719124000360",
+      "snippet": "Sep 1, 2024 · We examine the foundational aspects of a question answering framework, including question analysis, answer extraction, and passage retrieval.",
+      "timestamp": 1753836273.4424071
+    },
+    {
+      "title": "Building Customized Chatbots for Document Summarization and Question …",
+      "url": "https://www.researchgate.net/publication/379654962_Building_Customized_Chatbots_for_Document_Summarization_and_Question_Answering_using_Large_Language_Models_using_a_Framework_with_OpenAI_Lang_chain_and_Streamlit",
+      "snippet": "Apr 8, 2024 · Through a step-by-step guide, this research has demonstrated how developers can utilize the framework to create end-to-end document summarization and question-answering …",
+      "timestamp": 1753836273.4424808
+    },
+    {
+      "title": "LLM-KG4QA: Large Language Models and Knowledge Graphs for Question …",
+      "url": "https://github.com/machuangtao/LLM-KG4QA",
+      "snippet": "2024-12 We create this repository to maintain a paper list on LLMs and KGs for QA. If you find our work is useful, please cite our paper by using the following BibTeX entry. title={Large …",
+      "timestamp": 1753836273.4425554
+    },
+    {
+      "title": "information - a plural form ? | WordReference Forums",
+      "url": "https://forum.wordreference.com/threads/information-a-plural-form.215770/",
+      "snippet": "Aug 21, 2006 · Information is a non-count noun. It is neither singular nor plural If you don't have enough information then the …",
+      "timestamp": 1753836276.2910638
+    },
+    {
+      "title": "information / informations - singulier / pluriel - nom comptable",
+      "url": "https://forum.wordreference.com/threads/information-informations-singulier-pluriel-nom-comptable.450738/",
+      "snippet": "Apr 3, 2007 · Je crois que je vois \"informations\" plus souvent que \"information\", ce qui semble étrange …",
+      "timestamp": 1753836276.2911134
+    },
+    {
+      "title": "got the information on/from the website - WordReference Forums",
+      "url": "https://forum.wordreference.com/threads/got-the-information-on-from-the-website.3558763/",
+      "snippet": "Mar 20, 2019 · I got the information on/from the website last night. I'm learning towards \"from\" because it couples with \"got\", as …",
+      "timestamp": 1753836276.291153
+    },
+    {
+      "title": "below the information /information below\" | WordReference Forums",
+      "url": "https://forum.wordreference.com/threads/below-the-information-information-below.2151876/",
+      "snippet": "May 18, 2011 · Dear colleagues, Could you, please, explain me which sentence is the correct one? \"It follows the information …",
+      "timestamp": 1753836276.2911894
+    },
+    {
+      "title": "information是可数还是不可数 - 百度知道",
+      "url": "https://zhidao.baidu.com/question/562341724289215164.html",
+      "snippet": "三、例句： They were unable to provide much information. 他们不能提供很多信息。 四、词汇用法/搭配： 1、information的意 …",
+      "timestamp": 1753836276.2912264
+    },
+    {
+      "title": "Text Generation: A Systematic Literature Review of Tasks, …",
+      "url": "https://arxiv.org/abs/2405.15604",
+      "snippet": "May 24, 2024 · We provide a systematic literature review comprising 244 selected papers between 2017 and 2024. This review categorizes works in text generation into five main tasks: …This work delved into the realm of automatic text generation, exploring a variety of techniques ranging from traditional deterministic approaches t…",
+      "timestamp": 1753836278.3881497
+    },
+    {
+      "title": "Advances in neural text generation: A systematic review (2022 …",
+      "url": "https://ceur-ws.org/Vol-3917/paper59.pdf",
+      "snippet": "Although English dominates, there is increasing research on low-resource languages. The findings highlight the rapid evolution of neural text generation methods, the broadening of …",
+      "timestamp": 1753836278.3882189
+    },
+    {
+      "title": "A recent survey on controllable text generation: A causal …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667325824000062",
+      "snippet": "May 1, 2025 · This paper intends to review recent CTG approaches from a causal perspective. Firstly, according to previous research on basic types of CTG models, it is discovered that …",
+      "timestamp": 1753836278.3882868
+    },
+    {
+      "title": "A Systematic Literature Review on Text Generation Using Deep …",
+      "url": "https://www.ijfmr.com/papers/2024/1/11921.pdf",
+      "snippet": "The recommendations and future research directions provided in this study can guide researchers in exploring new avenues for improving the performance of text generation models and …",
+      "timestamp": 1753836278.3883412
+    },
+    {
+      "title": "Advances and challenges in artificial intelligence text generation",
+      "url": "https://link.springer.com/article/10.1631/FITEE.2300410",
+      "snippet": "Feb 8, 2024 · In this paper, we sort and systematically summarize the main research progress in text generation and review recent text generation papers, focusing on presenting a detailed …",
+      "timestamp": 1753836278.3883924
+    },
+    {
+      "title": "Language | Definition, Types, Characteristics, Development, …",
+      "url": "https://www.britannica.com/topic/language",
+      "snippet": "Jul 17, 2025 · Language, a system of conventional spoken, manual (signed), or written symbols by means of which human beings express themselves. …",
+      "timestamp": 1753836279.7090101
+    },
+    {
+      "title": "Language - Communication, Grammar, Culture | Britannica",
+      "url": "https://www.britannica.com/topic/language/Language-and-culture",
+      "snippet": "Jul 17, 2025 · Language - Communication, Grammar, Culture: It has been seen that language is much more than the external expression and …",
+      "timestamp": 1753836279.7091012
+    },
+    {
+      "title": "Guess the Language! Quiz | Britannica",
+      "url": "https://www.britannica.com/quiz/guess-the-language",
+      "snippet": "Take this image quiz at Encyclopaedia Britannica to test your knowledge of languages.",
+      "timestamp": 1753836279.7091691
+    },
+    {
+      "title": "Language - Evolution, Acquisition, Structure | Britannica",
+      "url": "https://www.britannica.com/topic/language/Linguistic-change",
+      "snippet": "Jul 17, 2025 · Language - Evolution, Acquisition, Structure: Every language has a history, and, as in the rest of human culture, changes are constantly taking …",
+      "timestamp": 1753836279.7092335
+    },
+    {
+      "title": "English language | Origin, History, Development, Charact…",
+      "url": "https://www.britannica.com/topic/English-language",
+      "snippet": "Jun 24, 2025 · English originated in England and is the dominant language of the United States, the United Kingdom, Canada, Australia, Ireland, New …",
+      "timestamp": 1753836279.709294
+    },
+    {
+      "title": "如何评价MiniMax语音模型Speech-02近日登顶多个全球榜单？",
+      "url": "https://www.zhihu.com/question/1906666637534430546",
+      "snippet": "Speech-02 号称是「全球第一个真正实现多样化、个性化定义的语音模型」，这并不夸大，因为它凭借广泛的训练数据和强大的泛 …",
+      "timestamp": 1753836281.2310207
+    },
+    {
+      "title": "本人14岁，反应速度平均192ms，这个反应是不是太慢了？想玩玩cs…",
+      "url": "https://www.zhihu.com/question/576415495",
+      "snippet": "目前在上网课谢邀 专业的关于人类反应时间的文章在知乎上很多，我这里简单的摘取部分。 @以宁致远 正常人反应速度在300毫秒左 …",
+      "timestamp": 1753836281.2311072
+    },
+    {
+      "title": "FR/EN: guillemets (« ») / quotation marks (“ ”) - usage & punctuation",
+      "url": "https://forum.wordreference.com/threads/fr-en-guillemets-«-»-quotation-marks-“-”-usage-punctuation.3083625/",
+      "snippet": "Oct 16, 2015 · Here in Britain you enclose the punctuation in the speech marks only if the punctuation is part of the quotation. …",
+      "timestamp": 1753836281.2311935
+    },
+    {
+      "title": "在国际学术会议上做英文口头报告，有哪些技巧和需要注意的地方…",
+      "url": "https://www.zhihu.com/question/28734687",
+      "snippet": "承蒙读博士时的老板大度（开会要花银子哇）。从博二开始保持每年平均出去开两次会，每次开会至少做一次口头报告。曾经最 …",
+      "timestamp": 1753836281.231264
+    },
+    {
+      "title": "语音领域有哪些中科院一区的刊物? - 知乎",
+      "url": "https://www.zhihu.com/question/649138485",
+      "snippet": "语音识别和声纹识别是语音领域的重要研究方向，在学术界和工业界都具有广泛的应用。以下是一些可以投稿的SCI中科院一区刊物： …",
+      "timestamp": 1753836281.2313273
+    },
+    {
+      "title": "dialog 和 dialogue什么区别 - 百度知道",
+      "url": "https://zhidao.baidu.com/question/178500228377933484.html",
+      "snippet": "dialog和dialogue的区别为：意思不同、用法不同、侧重点不同。 一、意思不同 1、dialog：会话，对话。 2、dialogue： (书、戏剧或电影中的)对话，对白 …",
+      "timestamp": 1753836282.7732222
+    },
+    {
+      "title": "dialogue可数吗? - 百度知道",
+      "url": "https://zhidao.baidu.com/question/2150005983085498468.html",
+      "snippet": "Nov 30, 2023 · dialogue既是可数名词又是不可数名词，当是不可数名词时，泛指一般意义上的对话。 指具体的对话，会话，指两个人之间的对话，是可数名词 …",
+      "timestamp": 1753836282.7733035
+    },
+    {
+      "title": "dialogue和conversation有什么区别? - 百度知道",
+      "url": "https://zhidao.baidu.com/question/603928149.html",
+      "snippet": "dialogue 音标： 英 ['daɪəlɒg] 美 [ˈdaɪəˌlɔɡ] 词性 n. 对话；意见交换 vi. 对话 vt. 用对话表达 造句： 1.The dialogue remained light and friendly. 对话仍然是 …",
+      "timestamp": 1753836282.7733836
+    },
+    {
+      "title": "dialogue, conversation, talk有什么区别吗？ - 百度知道",
+      "url": "https://zhidao.baidu.com/question/930483704235980699.html",
+      "snippet": "Dec 14, 2023 · 2、三者的含义用法不一样 （1）dialogue是对话，必须有两个人在互相说话，一般用在书里，口语不怎么用。 （2）conversation是 …",
+      "timestamp": 1753836282.7734478
+    },
+    {
+      "title": "\"对白\",\"自白\",\"独白\"各是什麽意思? - 百度知道",
+      "url": "https://zhidao.baidu.com/question/122599398.html",
+      "snippet": "Oct 23, 2009 · 对白： 在电影中所有说出的台词都叫对白，亦称“台词”。 DIALOGUE DIRECTOR 对白指导在排练和拍摄阶段，指导演员表达台词及动作的人。  …",
+      "timestamp": 1753836282.7735252
+    },
+    {
+      "title": "Chatbot是什么？ - 知乎",
+      "url": "https://www.zhihu.com/question/65980775",
+      "snippet": "1、 A Complete Survey on LLM-based AI Chatbots，2024.6.16 调查的比较全面但不深入技术，旨在回答以下问题： 聊天机器人是如何从简单的自动化系统演变为我们今天看到的基于 LLM 的变体的，以及自 LLM 时代之前以来，LLM 中的哪些基础性进步重新定义了聊天机器人的功能？",
+      "timestamp": 1753836284.3073847
+    },
+    {
+      "title": "《经济学人》双语阅读 The Battle for Search",
+      "url": "https://www.zhihu.com/tardis/bd/art/610993098",
+      "snippet": "What do AI chatbots mean for the lucrative business of searching the internet? AI聊天机器人对利润丰厚的互联网搜索业务意味着什么？ For more than 25 years, search engines have been the internet’s front door. AltaVista, the first site to allow searches of the full text of the web, was swiftly dethroned by Google, which has dominated the field in most of the world ever ...",
+      "timestamp": 1753836284.3074722
+    },
+    {
+      "title": "请问各位AI大家，ChatGPT—1至ChatGPT—4每代参数量几亿？",
+      "url": "https://www.zhihu.com/question/593661757",
+      "snippet": "All 3 chatbots had a composite score above 4 out of 5. ChatGPT scored the highest in all aspects of the assessment. However, all chatbots exhibit shortcomings, such as giving fabricated responses. 该研究的问题已经过可靠的测试。 所有 3 个聊天机器人的字数响应之间存在显着差异。",
+      "timestamp": 1753836284.3075628
+    },
+    {
+      "title": "谈谈你使用百度文言一心产品的感受？ - 知乎",
+      "url": "https://www.zhihu.com/question/590063856",
+      "snippet": "在ChatGPT4.0版本推出不久之后，百度就发布了旗下的的同类产品——文言一心。指望这样一个刚出生的孩子就具备和ChatGPT4.0抗衡的能力显然是不合理的，不过文言一心作为国内最好的AI，国人还是寄托了很多的期望的。毕竟这是一个真正的新风口，甚至也许真的会引起类似于新一轮工业革命般的变革 ...",
+      "timestamp": 1753836284.3076327
+    },
+    {
+      "title": "如何从零基础开始学习做一个基于人工智能的chatbot聊天机器人?",
+      "url": "https://www.zhihu.com/question/324784014",
+      "snippet": "May 17, 2019 · 3. Botfront Botfront其实最初是为了取代RasaX这个商业版本的， 为开源Rasa搞一个前端接口和管理界面的。 与Botfront类似的Rasa框架还有articulate、rasatalk，但是相对而言Botfront要成熟些。 但是自从今年年初被一个加拿大的远程医疗公司Dialogue收购了后， 也基本死掉了。",
+      "timestamp": 1753836284.3076966
+    },
+    {
+      "title": "A contemporary review on chatbots, AI-powered virtual …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1574013724000169",
+      "snippet": "May 1, 2024 · Recommendation for future research on chatbots. This review paper offers an in-depth analysis of AI-powered virtual conversational agents, specifically focusing on OpenAI’s …",
+      "timestamp": 1753836285.0515907
+    },
+    {
+      "title": "Publications | Chatbot Research Group",
+      "url": "https://chatbotresearch.org/publication/",
+      "snippet": "Chatbot Research is a platform for research on the design, use, and impact of AI-powered chatbots and voice assistants in work and life.",
+      "timestamp": 1753836285.0516634
+    },
+    {
+      "title": "Unveiling Trends of Chatbot and Conversational Agents: A...",
+      "url": "https://sciendo.com/article/10.2478/acss-2024-0019",
+      "snippet": "Dec 6, 2024 · Therefore, this bibliometric analysis offers a unique and in-depth view of the evolving chatbot research landscape, serving as a valuable guide for future research and …",
+      "timestamp": 1753836285.0517228
+    },
+    {
+      "title": "From tools to threats: a reflection on the impact of artificial ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020077/",
+      "snippet": "Based on a review of the research literature, Chauncey and McKenna (2023) formulated a conceptual framework for responsible use of AICs in education supporting cognitive flexibility …",
+      "timestamp": 1753836285.0517793
+    },
+    {
+      "title": "AI-Powered Chatbots - EA Journals",
+      "url": "https://eajournals.org/gjhrm/wp-content/uploads/sites/34/2024/09/AI-Powered-Chatbots.pdf",
+      "snippet": "Overall, this paper aims to provide a comprehensive analysis of AI-powered chatbots, detailing their applications, benefits, challenges, and future potential.",
+      "timestamp": 1753836285.0518332
+    },
+    {
+      "title": "Free Text to Speech Online - TTSMaker",
+      "url": "https://ttsmaker.com/",
+      "snippet": "TTSMaker is a free text-to-speech tool and AI voice generator that converts text to speech, supporting 100+ languages and 600+ AI voices. It can be used as a text reader to read aloud, or …",
+      "timestamp": 1753836286.4001467
+    },
+    {
+      "title": "Best 3 Free Text to Speech Websites in 2025 – TTSMaker",
+      "url": "https://ttsmaker.com/blog/best-3-free-text-to-speech-websites-in-2025/",
+      "snippet": "Jan 21, 2025 · Today, we recommend the three most popular free text-to-speech websites in 2025, each with unique advantages in language support, voice quality, features, and user experience.",
+      "timestamp": 1753836286.4002304
+    },
+    {
+      "title": "Bezplatný text na řeč online - TTSMaker",
+      "url": "https://ttsmaker.com/cs",
+      "snippet": "TTSMaker je bezplatný nástroj textu na řeč a generátor hlasu AI, který převádí text na řeč, podporuje 100+ jazyků a 600+ AI hlasů. Lze jej použít jako čtečka textu ke čtení nahlas, nebo si …",
+      "timestamp": 1753836286.4003131
+    },
+    {
+      "title": "Professioneller KI-Sprachgenerator – TTSMaker Pro",
+      "url": "https://pro.ttsmaker.com/de/home",
+      "snippet": "Es zeichnet sich in der Konvertierung von Text in Sprache aus und unterstützt über 100 Sprachen mit über 600 AI -Stimmen. Sie erhalten Zugriff auf mehr als 20 unbegrenzte Stimmen, zusammen …",
+      "timestamp": 1753836286.4003775
+    },
+    {
+      "title": "TTSMaker AI Voice Studio - TTSMaker Pro",
+      "url": "https://pro.ttsmaker.com/studio/",
+      "snippet": "It excels at converting text to speech and supports over 100 languages with 600+ AI voices. You gain access to 20+ unlimited voices, along with advanced speech synthesis features such as …",
+      "timestamp": 1753836286.4004362
+    },
+    {
+      "title": "Towards Controllable Speech Synthesis in the Era of Large …",
+      "url": "https://arxiv.org/abs/2412.06602",
+      "snippet": "Dec 9, 2024 · In this work, we conduct a comprehensive survey of controllable TTS, covering approaches ranging from basic control techniques to methods utilizing natural language …",
+      "timestamp": 1753836287.034598
+    },
+    {
+      "title": "Deep learning-based expressive speech synthesis: a systematic …",
+      "url": "https://asmp-eurasipjournals.springeropen.com/articles/10.1186/s13636-024-00329-7",
+      "snippet": "Feb 12, 2024 · Speech synthesis has made significant strides thanks to the transition from machine learning to deep learning models. Contemporary text-to-speech (TTS) models possess the …",
+      "timestamp": 1753836287.0346494
+    },
+    {
+      "title": "Text-to-Speech Strategic Industry Report 2024 - Rising",
+      "url": "https://www.globenewswire.com/news-release/2024/12/4/2991864/28124/en/Text-to-Speech-Strategic-Industry-Report-2024-Rising-Demand-for-AI-Powered-Voice-Solutions-Spurs-TTS-Adoption-A-US-9-3-Billion-Market-by-2030-Growing-at-a-CAGR-of-13-4-from-2023-to.html",
+      "snippet": "Dec 4, 2024 · Detailed Market Analysis: Access a thorough analysis of the Global Text-to-Speech Market, covering all major geographic regions and market segments. Competitive Insights: Get …",
+      "timestamp": 1753836287.0346944
+    },
+    {
+      "title": "Title: Recent Advances in Speech Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2410.03751",
+      "snippet": "Oct 1, 2024 · Large Language Models (LLMs) have recently garnered significant attention, primarily for their capabilities in text-based interactions. However, natural human interaction often relies …",
+      "timestamp": 1753836287.03473
+    },
+    {
+      "title": "Text-To-Speech Market Size Worth USD 5,736.20 Million by 2034 …",
+      "url": "https://www.polarismarketresearch.com/press-releases/text-to-speech-market",
+      "snippet": "Text-To-Speech Market Report Highlights. In terms of offering, the services segment led the market in 2024, driven by growing demand for customization, seamless integration, and technical …",
+      "timestamp": 1753836287.0347664
+    },
+    {
+      "title": "How \"Real\" is Your Real-Time Simultaneous Speech-to-Text …",
+      "url": "https://arxiv.org/abs/2412.18495",
+      "snippet": "Dec 24, 2024 · Our extensive literature review of 110 papers not only reveals these critical issues in current research but also serves as the foundation for our key contributions.As a result, researchers have been exploring end-to-end (E2E) models for ST translation. However, to our knowledge, there is no comprehensive review …",
+      "timestamp": 1753836288.8218944
+    },
+    {
+      "title": "Automatic speech-to-text transcription: evidence from a …",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13645579.2024.2443633",
+      "snippet": "Jan 1, 2025 · We addressed three research questions and compared the performance of two leading ASR systems: Google’s Cloud Speech-to-Text API (commercial) and OpenAI’s Whisper …",
+      "timestamp": 1753836288.8223748
+    },
+    {
+      "title": "End-to-End Speech-to-Text Translation: A Survey",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0885230824001347",
+      "snippet": "Mar 1, 2025 · Survey on speech-to-text translation with research challenges and open problems. Aims to be a one-stop resource for new researchers in this emerging field. Comparative tables …",
+      "timestamp": 1753836288.8224645
+    },
+    {
+      "title": "How ready is speech-to-text for psychological language research ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38773028/",
+      "snippet": "Based on these results, automatic speech-to-text appears to be ready for psychological language research when using spoken language tasks in relatively quiet environments, unless filler words …",
+      "timestamp": 1753836288.8227346
+    },
+    {
+      "title": "End-to-End Speech-to-Text Translation: : A Survey - ACM Digital …",
+      "url": "https://dl.acm.org/doi/abs/10.1016/j.csl.2024.101751",
+      "snippet": "Mar 1, 2025 · We have attempted to provide a comprehensive review of models employed, metrics, and datasets used for ST tasks, providing challenges and future research direction with new …",
+      "timestamp": 1753836288.8228066
+    },
+    {
+      "title": "为什么 semantic scholar 用不了了？ - 知乎",
+      "url": "https://www.zhihu.com/question/653725879",
+      "snippet": "获取 Semantic Scholar API Key，可以将这些强大的功能集成到您自己的应用和工具中，大大简化学术文献的检索和分析过程。 为什么选择 Semantic Scholar API？ 1. 智能搜索和筛选 通过理 …",
+      "timestamp": 1753836290.0036855
+    },
+    {
+      "title": "语义学（semantics）和语用学（pragmatics）有何区别？ - 知乎",
+      "url": "https://www.zhihu.com/question/20029549",
+      "snippet": "It is concerned with the relationship between semantic meaning, context of use and speaker’s meaning. 语用学主要是研究语言的使用，如句子的表面意思和内涵意思的关系。 第二点是内容 …",
+      "timestamp": 1753836290.0037665
+    },
+    {
+      "title": "深度学习中的语义指的是什么？语义空间指什么？请大神指教？",
+      "url": "https://www.zhihu.com/question/561584849",
+      "snippet": "Oct 22, 2022 · 语义（semantics）指的是表达的解释。 另一位答主举了两个领域的具体例子。关于一般的理解，抛砖引玉一下。 在机器学习中，表达（expression）对应于数据（在NLP任务 …",
+      "timestamp": 1753836290.0038316
+    },
+    {
+      "title": "CVPR 2025有哪些值得关注的文章？ - 知乎",
+      "url": "https://www.zhihu.com/question/13320524361",
+      "snippet": "CVPR 2025: An End-to-End Robust Point Cloud Semantic Segmentation Network with Single-Step Conditional Diffusion Models 图1. CN：条件网络，NN：噪声网络。 用于非生成任务 (补全，上 …",
+      "timestamp": 1753836290.0041666
+    },
+    {
+      "title": "arXiv:2412.10207v1 [cs.CL] 13 Dec 2024",
+      "url": "https://arxiv.org/pdf/2412.10207",
+      "snippet": "Bai et al., 2022; Wang et al., 2023a). With the rise of large language models, there has been considerable discussion about leveraging these models for semantic parsing, achieving notable …",
+      "timestamp": 1753836290.5231879
+    },
+    {
+      "title": "Structured prediction methods for semantic parsing",
+      "url": "https://theses.hal.science/tel-04527227/document",
+      "snippet": "Then, we describe the main research directions over the years for semantic parsing with their motivations, advantages and limitations. Notably, we discuss the recent focus on neural-based …",
+      "timestamp": 1753836290.5232852
+    },
+    {
+      "title": "Numerous publications accepted at EMNLP 2024 - Universität des …",
+      "url": "https://www.uni-saarland.de/en/department/lst/news/numerous-publications-accepted-at-emnlp-2024-34155.html",
+      "snippet": "Sep 24, 2024 · Numerous scientific publications from our department were accepted at the Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024. …",
+      "timestamp": 1753836290.5233548
+    },
+    {
+      "title": "Mitigating Data Scarcity in Semantic Parsing across Languages: the ...",
+      "url": "https://hal.science/hal-04902927v1/file/MSL_ACL2024.pdf",
+      "snippet": "This paper introduces a practical solution for tackling data scarcity, which can scale across differ- ent languages. Firstly, we propose the Multilingual Semantic Layer (MSL), an evolution of …",
+      "timestamp": 1753836290.5234163
+    },
+    {
+      "title": "Neural Semantic Parsing with Extremely Rich Symbolic Meaning ...",
+      "url": "https://arxiv.org/abs/2404.12698",
+      "snippet": "Apr 19, 2024 · By leveraging the hierarchical structure of a lexical ontology, we introduce a novel compositional symbolic representation for concepts based on their position in the taxonomical …",
+      "timestamp": 1753836290.5234725
+    },
+    {
+      "title": "Microsoft 365 Online gratuit | Word, Excel, PowerPoint",
+      "url": "https://www.microsoft.com/fr-fr/microsoft-365/free-office-online-for-the-web",
+      "snippet": "Avec Microsoft 365 pour le web vous pouvez modifier et partager des fichiers Word, Excel, PowerPoint et OneNote sur vos appareils à …",
+      "timestamp": 1753836297.9262369
+    },
+    {
+      "title": "Édition de documents en ligne gratuite avec Microsoft Word | Mic…",
+      "url": "https://www.microsoft.com/fr-fr/microsoft-365/word",
+      "snippet": "Utilisez Microsoft Word pour une expérience optimale de traitement de texte et de création de documents. Découvrez comment les …",
+      "timestamp": 1753836297.9263275
+    },
+    {
+      "title": "Télécharger, installer ou réinstaller Microsoft 365 ou Office 2024 sur ...",
+      "url": "https://support.microsoft.com/fr-fr/office/télécharger-installer-ou-réinstaller-microsoft-365-ou-office-2024-sur-un-pc-ou-mac-4414eaaf-0478-48be-9c42-23adc4716658",
+      "snippet": "Découvrez comment installer, réinstaller ou activer Microsoft 365 ou Office 2024 sur un PC ou un Mac.",
+      "timestamp": 1753836297.9264035
+    },
+    {
+      "title": "Microsoft Store - Download apps, games & more for your Windows PC",
+      "url": "https://apps.microsoft.com/home?hl=en-us&gl=US",
+      "snippet": "Explore the Microsoft Store for apps and games on Windows. Enjoy exclusive deals, new releases, and your favorite content all …",
+      "timestamp": 1753836297.9265144
+    },
+    {
+      "title": "Free Online Document Editing with Microsoft Word | Microsoft 365",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/word",
+      "snippet": "Use Microsoft Word for the best word processing and document creation. Find out how document collaboration and editing …",
+      "timestamp": 1753836297.9265826
+    },
+    {
+      "title": "SENTENCE Definition & Meaning - Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/sentence",
+      "snippet": "The meaning of SENTENCE is a word, clause, or phrase or a group of clauses or phrases forming a syntactic unit which expresses an assertion, …",
+      "timestamp": 1753836299.2515488
+    },
+    {
+      "title": "The 100 most useful emailing phrases - UsingEnglish.com",
+      "url": "https://www.usingenglish.com/articles/100-most-useful-emailing-phrases.html",
+      "snippet": "Nov 9, 2023 · A carefully chosen list of essential language for the beginning, body and ending of formal and informal English emails.",
+      "timestamp": 1753836299.2516828
+    },
+    {
+      "title": "Who's vs Whose: Using Each Correctly | Merriam-Webster",
+      "url": "https://www.merriam-webster.com/grammar/whos-whose-difference-usage-pronouns",
+      "snippet": "Want the who's who on whose and who's?' These words are often confused because of the apostrophe but we're here to help sort them all …",
+      "timestamp": 1753836299.2517629
+    },
+    {
+      "title": "Sentence Definition - Grammar Terminology - UsingEnglish.com",
+      "url": "https://www.usingenglish.com/reference/sentence/",
+      "snippet": "Definition of Sentence from our glossary of English linguistic and grammatical terms containing explanations and cross-references …",
+      "timestamp": 1753836299.251836
+    },
+    {
+      "title": "33 Transition Words for Essays | Merriam-Webster",
+      "url": "https://www.merriam-webster.com/grammar/transition-words-list",
+      "snippet": "Transitional terms give writers the opportunity to prepare readers for a new idea, connecting the previous sentence to the next one. Many …",
+      "timestamp": 1753836299.2519062
+    },
+    {
+      "title": "HIGHLIGHTS | Arsenal vs Manchester United (3-1) - YouTube",
+      "url": "https://www.youtube.com/watch?v=1pKtWxb9z7I",
+      "snippet": "Injury-time goals from Declan Rice and Gabriel Jesus gave us a dramatic late comeback win at Emirates Stadium. ...more. Marcus Rashford had fired the visitors ahead on 27 minutes with their …",
+      "timestamp": 1753836300.7348382
+    },
+    {
+      "title": "Manchester United vs Arsenal live score, H2H and lineups",
+      "url": "https://www.sofascore.com/football/match/arsenal-manchester-united/KR",
+      "snippet": "Manchester United is going head to head with Arsenal starting on 17 Aug 2025 at 15:30 UTC at Old Trafford stadium, Manchester city, England. The match is a part of the Premier League.",
+      "timestamp": 1753836300.7349238
+    },
+    {
+      "title": "Arsenal 1 - 1 Man Utd - Match Report & Highlights - Sky Sports",
+      "url": "https://www.skysports.com/football/arsenal-vs-manchester-united/report/523636",
+      "snippet": "Jan 12, 2025 · Manchester United win 5-3 on penalties. Jamie Weir and Sam Blitz provide the verdict from a classic FA Cup match where Manchester United went through on penalties after …",
+      "timestamp": 1753836300.7349916
+    },
+    {
+      "title": "Arsenal inflict Amorim's first Man Utd defeat",
+      "url": "https://www.bbc.com/sport/football/live/cx2l21kvdlpt",
+      "snippet": "Dec 4, 2024 · Arsenal scored twice from corners to comfortably beat Manchester United as Ruben Amorim suffered his first defeat in English football. Defenders Jurrien Timber and William Saliba …",
+      "timestamp": 1753836300.735054
+    },
+    {
+      "title": "Manchester United 1-1 Arsenal (5-3 pens): 10-man United win …",
+      "url": "https://www.bbc.co.uk/sport/football/live/cn853d978n0t",
+      "snippet": "Joshua Zirkzee scores the winning penalty as a 10-man Manchester United beat Arsenal in a thrilling encounter to reach the fourth round of the FA Cup.",
+      "timestamp": 1753836300.7351136
+    },
+    {
+      "title": "Alignment of brain embeddings and artificial contextual …",
+      "url": "https://www.nature.com/articles/s41467-024-46631-y",
+      "snippet": "Mar 30, 2024 · Contextual embeddings, derived from deep language models (DLMs), provide a continuous vectorial representation of language. This embedding space differs fundamentally …We would like to show you a description here but the site won’t allow us.",
+      "timestamp": 1753836301.3173552
+    },
+    {
+      "title": "[2410.02525] Contextual Document Embeddings - arXiv.org",
+      "url": "https://arxiv.org/abs/2410.02525",
+      "snippet": "Oct 3, 2024 · In this work, we argue that these embeddings, while effective, are implicitly out-of-context for targeted use cases of retrieval, and that a contextualized document embedding …",
+      "timestamp": 1753836301.3174286
+    },
+    {
+      "title": "Introducing Contextual Retrieval \\ Anthropic",
+      "url": "https://www.anthropic.com/news/contextual-retrieval",
+      "snippet": "Sep 19, 2024 · Embedding model: Whereas Contextual Retrieval improves performance across all embedding models we tested, some models may benefit more than others. We found Gemini …",
+      "timestamp": 1753836301.3174906
+    },
+    {
+      "title": "Contextual Embeddings in Sociological Research: Expanding the …",
+      "url": "https://journals.sagepub.com/doi/10.1177/00811750241260729",
+      "snippet": "Jul 25, 2024 · His research focuses on modeling and forecasting human behavior and social dynamics, identifying patterns and anomalies in sequential data, and data linkage.",
+      "timestamp": 1753836301.3175583
+    },
+    {
+      "title": "Topic Modeling: Contextual Token Embeddings Are All You Need",
+      "url": "https://aclanthology.org/2024.findings-emnlp.790/",
+      "snippet": "2 days ago · We introduce a novel topic modeling approach, Contextual-Top2Vec, which uses document contextual token embeddings, it creates hierarchical topics, finds topic spans within …",
+      "timestamp": 1753836301.3176126
+    },
+    {
+      "title": "一次性弄懂什么是Word2Vec - 知乎",
+      "url": "https://www.zhihu.com/tardis/bd/art/344474638",
+      "snippet": "Jan 27, 2021 · 被Word2Vec折磨很久的我，为了践行费曼学习法，提高自己的认知水平，并希望借此能和大家分享一个基于我个人理解的Word2Vec的描述，希望大家通过我的博文能较好的理 …",
+      "timestamp": 1753836302.489838
+    },
+    {
+      "title": "[NLP] 秒懂词向量Word2vec的本质 - 知乎",
+      "url": "https://www.zhihu.com/column/p/26306795",
+      "snippet": "Word2vec 正是来源于这个思想，但它的最终目的，不是要把 f 训练得多么完美，而是只关心模型训练完后的副产物——模型参数（这里特指神经网络的权重），并将这些参数，作为输入 x 的 …",
+      "timestamp": 1753836302.4899254
+    },
+    {
+      "title": "How to get vector for a sentence from the word2vec of tokens in ...",
+      "url": "https://stackoverflow.com/questions/29760935/how-to-get-vector-for-a-sentence-from-the-word2vec-of-tokens-in-sentence/",
+      "snippet": "Apr 21, 2015 · It is possible, but not from word2vec. The composition of word vectors in order to obtain higher-level representations for sentences (and further for paragraphs and documents) …",
+      "timestamp": 1753836302.489996
+    },
+    {
+      "title": "How to fetch vectors for a word list with Word2Vec?",
+      "url": "https://stackoverflow.com/questions/31440803/how-to-fetch-vectors-for-a-word-list-with-word2vec",
+      "snippet": "Jul 15, 2015 · I want to create a text file that is essentially a dictionary, with each word being paired with its vector representation through word2vec. I'm assuming the process would be to …",
+      "timestamp": 1753836302.4900932
+    },
+    {
+      "title": "在自然语言处理（NLP）中，词嵌入技术（如Word2Vec）如何帮 …",
+      "url": "https://www.zhihu.com/question/3927865743",
+      "snippet": "在自然语言处理（NLP）中，词嵌入技术（如Word2Vec）通过将词汇转换为可计算的数值向量，极大地提升了模型对文本的理解能力。",
+      "timestamp": 1753836302.4901557
+    },
+    {
+      "title": "(PDF) Semantic Similarity Measure Using a Combination of Word2Vec a…",
+      "url": "https://www.researchgate.net/publication/382093227_Semantic_Similarity_Measure_Using_a_Combination_of_Word2Vec_and_WordNet_Models",
+      "snippet": "PDF | On Jun 30, 2024, Aissa Fellah and others published Semantic Similarity Measure Using a Combination of Word2Vec and WordNet …",
+      "timestamp": 1753836303.0469463
+    },
+    {
+      "title": "Integrated systems approach to enhance rural development: word2v…",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23311886.2024.2447904",
+      "snippet": "Jan 7, 2025 · The research methodology of this study encompasses three key phases aimed at providing an understanding of and analysing rural development dynamics. These phases show a systematic approach that integrates a systematic literature review, data collection, and framework development.",
+      "timestamp": 1753836303.0470273
+    },
+    {
+      "title": "Understanding Word2Vec: A Comprehensive Overview of Word",
+      "url": "https://medium.com/@tejaswaroop2310/understanding-word2vec-a-comprehensive-overview-of-word-representations-and-semantic-similarity-c993c8d68806",
+      "snippet": "Dec 19, 2024 · This article consolidates findings from foundational research on Word2Vec and its application to semantic similarity evaluation, with a focus on two key studies: the introduction of Word2Vec...",
+      "timestamp": 1753836303.047099
+    },
+    {
+      "title": "Word embedding techniques with emphasis on word2vec | S-Logix",
+      "url": "https://slogix.in/machine-learning/a-detailed-review-on-word-embedding-techniques-with-emphasis-on-word2vec/",
+      "snippet": "This review provides an overview of several word embedding strategies and the entire working procedure of word2vec,both in theory and …",
+      "timestamp": 1753836303.0471652
+    },
+    {
+      "title": "Semantic Similarity Measure Using a Combination of Word2Vec and Word…",
+      "url": "https://section.iaesonline.com/index.php/IJEEI/article/download/5114/924",
+      "snippet": "Jul 5, 2024 · Researchers are exploring diverse approaches, to improve the accuracy and effectiveness of measuring similarity and …",
+      "timestamp": 1753836303.0472274
+    },
+    {
+      "title": "有了语言模型bert等后，还需要word2vec或GloVe吗? - 知乎",
+      "url": "https://www.zhihu.com/question/505015155",
+      "snippet": "其次，bert有512的token限制，所以针对长文本，它就无法直接进行词向量表征； 最后，Word2vec或Glove模型进行词向量的表征时，模型训练方便 …",
+      "timestamp": 1753836304.2037096
+    },
+    {
+      "title": "Transformer两大变种：GPT和BERT的差别（易懂版）-2更",
+      "url": "https://www.zhihu.com/tardis/zm/art/607605399",
+      "snippet": "Jul 16, 2025 · BERT与以往的模型不同，它是深度双向的，无监督的语言表示，完全依靠纯文本语料库进行预训练。 自那时起，我们开始见证了一系列大 …",
+      "timestamp": 1753836304.203789
+    },
+    {
+      "title": "在美语中，字母 o 的发音规则是怎么样的？ - 知乎",
+      "url": "https://www.zhihu.com/question/392681354",
+      "snippet": "字母o是五个元音字母中发音规则最复杂的一个，我总结了以下十条规则，供参考： (1)重读闭音节发 [ɔ]：下面例外情况除外 ...",
+      "timestamp": 1753836304.2038546
+    },
+    {
+      "title": "BERT这么厉害，如何利用BERT做语义相似度匹配任务呢，或者说，如何利用BERT …",
+      "url": "https://www.zhihu.com/question/317540171",
+      "snippet": "基本信息 关于语义相似度匹配任务，我们通常使用 距离度量函数，计算待匹配句子对的 向量表示 之间的距离，根据此距离判断句子对之间的匹配程度。 关 …",
+      "timestamp": 1753836304.2039137
+    },
+    {
+      "title": "Steam验证后总是出现会您对 CAPTCHA 的响应似乎无效。请在下方重新验证您不 …",
+      "url": "https://www.zhihu.com/question/423929401",
+      "snippet": "登录时忘记账号或密码，提示 APTCHA 的响应似乎无效，请在下方重新验证您不是机器人按以下步骤，亲测有效。 在电脑上操作会受浏览器和加速器的限 …",
+      "timestamp": 1753836304.203971
+    },
+    {
+      "title": "Building wheels for collected packages: fasttext not working",
+      "url": "https://stackoverflow.com/questions/72517946/building-wheels-for-collected-packages-fasttext-not-working",
+      "snippet": "Jun 6, 2022 · If you look at the info for the fasttext package at PyPI, it says: fastText builds on modern Mac OS and Linux …",
+      "timestamp": 1753836305.6156785
+    },
+    {
+      "title": "python - fastText installation failed - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/68280883/fasttext-installation-failed",
+      "snippet": "Jul 7, 2021 · I have tried to install fastText through this by using anaconda prompt conda install -c conda-forge fasttext but …",
+      "timestamp": 1753836305.6157868
+    },
+    {
+      "title": "fastText原理及实践 - 知乎",
+      "url": "https://www.zhihu.com/column/p/32965521",
+      "snippet": "fastText是Facebook于2016年开源的一个词向量计算和文本分类工具，在学术上并没有太大创新。 但是它的优点也非常明显，在文本 …",
+      "timestamp": 1753836305.6158788
+    },
+    {
+      "title": "Is it possible to fine tune FastText models - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/57798839/is-it-possible-to-fine-tune-fasttext-models",
+      "snippet": "Sep 5, 2019 · I'm working on a project for text similarity using FastText, the basic example I have found to train a model is: …",
+      "timestamp": 1753836305.6159651
+    },
+    {
+      "title": "python - How to get nearest neighbours in fasttext for unsupe…",
+      "url": "https://stackoverflow.com/questions/57903873/how-to-get-nearest-neighbours-in-fasttext-for-unsupervised-learning-models-cbow",
+      "snippet": "Sep 12, 2019 · The examples (related to word representations) on fasttext official web site (fasttext.cc) suggest that it is …",
+      "timestamp": 1753836305.616045
+    },
+    {
+      "title": "(PDF) Optimization of Deep Learning with FastText for Sentiment ...",
+      "url": "https://www.researchgate.net/publication/391176912_Optimization_of_Deep_Learning_with_FastText_for_Sentiment_Analysis_of_the_SIREKAP_2024_Application",
+      "snippet": "Apr 15, 2025 · In conclusion, the research highlights the effectiveness of integrating Fast R-CNN in sentiment analysis to extract deeper insights from Twitter data in Indonesia.PDF | On Nov 4, 2024, Ritika Mahajan and others published FastText – XGB (FGB) Machine Learning Model for Indian Penal Code (IPC) Prediction | Fin…",
+      "timestamp": 1753836306.1386788
+    },
+    {
+      "title": "Research article - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024064442",
+      "snippet": "May 15, 2024 · In contrast to prior research endeavors, this study achieves heightened recommendation accuracy and personalization by tailoring a recommendation framework …",
+      "timestamp": 1753836306.1387568
+    },
+    {
+      "title": "Hybrid Deep Learning CNN and BiLSTM with FastText as Feature …",
+      "url": "https://ieeexplore.ieee.org/document/10862946",
+      "snippet": "Twitter, now X is a highly influential social media platform in shaping public sentiment, particularly during the 2024 Indonesian Presidential Election. Sentime.",
+      "timestamp": 1753836306.1388185
+    },
+    {
+      "title": "An efficient consolidation of word embedding and deep learning ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38435607/",
+      "snippet": "Feb 20, 2024 · The proposed combination, FastText+BiLSTM, exhibits 92.50% of accuracy for ACPs250 dataset, and 96.15% of accuracy for the Independent dataset, thence determining new …",
+      "timestamp": 1753836306.1388812
+    },
+    {
+      "title": "Optimization of Deep Learning with FastText for Sentiment Analysis …",
+      "url": "http://ai-soc.org/ijcs/index.php/ijcs/user/setLocale/id_ID?source=/ijcs/index.php/ijcs/article/view/4809",
+      "snippet": "Apr 15, 2025 · This study provides insights for developers to improve the performance and public trust in SIREKAP 2024 and opens opportunities for further research with more complex …",
+      "timestamp": 1753836306.1389685
+    },
+    {
+      "title": "agentic - Deutsch gesucht: Englisch ⇔ Deutsch Forum - leo.org",
+      "url": "https://dict.leo.org/forum/viewUnsolvedquery.php?idThread=604435&lang=de",
+      "snippet": "LEO.org: Ihr Wörterbuch im Internet für ­Englisch-Deutsch­ Übersetzungen, mit Forum, Vokabeltrainer und Sprachkursen. Natürlich auch als App.",
+      "timestamp": 1753836307.350768
+    },
+    {
+      "title": "社会心理学中，Agency and Communion是什么意思？_百度知道",
+      "url": "https://zhidao.baidu.com/question/195928240.html",
+      "snippet": "Nov 7, 2010 · 社会心理学中，Agency and Communion是什么意思？Communion：（思想等）交流，亲密交流或配合agency:（做事的）动力，作用ps:这两个是概念性的名词哦！你若要对这 …",
+      "timestamp": 1753836307.350864
+    },
+    {
+      "title": "男性具有agentic 定向，女性具有communion 定向。这两个单词分 …",
+      "url": "https://zhidao.baidu.com/question/354033796.html",
+      "snippet": "Dec 13, 2011 · For decisions that are mainly driven by achievement of gains (e.g., investment decisions), men's risk-taking propensity is more influenced by their levels of issue capability …",
+      "timestamp": 1753836307.3509407
+    },
+    {
+      "title": "agentic这个词怎么翻译？_百度知道",
+      "url": "https://zhidao.baidu.com/question/305048795.html",
+      "snippet": "Aug 10, 2011 · 追问 It is important to note, however, that perceptions of entitativity can affect the extent to which groups are perceived as homogenous; as possessing an underlying essence; …",
+      "timestamp": 1753836307.3510087
+    },
+    {
+      "title": "agenticの日本語の意味ってなんですか？ - Yahoo!知恵袋",
+      "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12100862412",
+      "snippet": "Jan 25, 2013 · agenticの日本語の意味ってなんですか？ socialcognitivetheoryで使う用語で、socialsystemのproducerにもなるし、productにもなるという意味のようです。日本語には …",
+      "timestamp": 1753836307.3510804
+    },
+    {
+      "title": "Agent4EDU: Advancing AI for Education with Agentic Workflows",
+      "url": "https://www.researchgate.net/publication/389659618_Agent4EDU_Advancing_AI_for_Education_with_Agentic_Workflows",
+      "snippet": "Nov 22, 2024 · This study introduces the Agent4EDU (agent for education) framework, which outlines 4 application models in education from the two dimensions of degree of agency and …",
+      "timestamp": 1753836307.857831
+    },
+    {
+      "title": "The Landscape of Emerging AI Agent Architectures for Reasoning ...",
+      "url": "https://arxiv.org/abs/2404.11584",
+      "snippet": "Apr 17, 2024 · This survey paper examines the recent advancements in AI agent implementations, with a focus on their ability to achieve complex goals that require enhanced …",
+      "timestamp": 1753836307.8579159
+    },
+    {
+      "title": "Agentic Reasoning and Tool Integration for LLMs via …",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/AgenticReasoning.pdf",
+      "snippet": "Detailed studies and metric analyses reveal that agentic RL training leads to deeper reasoning, more effective tool use, and higher-quality solutions. Our results establish agentic RL with tool …",
+      "timestamp": 1753836307.8579853
+    },
+    {
+      "title": "Agent4EDU: Advancing AI for Education with Agentic Workflows",
+      "url": "https://dl.acm.org/doi/10.1145/3722237.3722268",
+      "snippet": "This study introduces the Agent4EDU (agent for education) framework, which outlines 4 application models in education from the two dimensions of degree of agency and degree of …",
+      "timestamp": 1753836307.8580487
+    },
+    {
+      "title": "Navigating The New Frontier: Agentic AI Singularity and EdTech …",
+      "url": "https://ai4edu.eu/wp-content/uploads/2025/01/8.-New-Frontiers-Agentic-AI-Singularity-and-EdTech-Skills_Transforming-Education-for-the-Future.pdf",
+      "snippet": "This manuscript synthesises insights, including UNESCO’s 2024 Competency Frameworks, the EU AI Act, and OECD guidelines, into a comprehensive discussion on the transformative role …",
+      "timestamp": 1753836307.8581123
+    },
+    {
+      "title": "Qu’est-ce que le prompt engineering - IBM",
+      "url": "https://www.ibm.com/fr-fr/think/topics/prompt-engineering",
+      "snippet": "Le prompt engineering est un outil puissant qui permet aux chatbots IA de générer des réponses contextuelles et cohérentes lors de conversations en temps réel.",
+      "timestamp": 1753836309.0354693
+    },
+    {
+      "title": "Ingénierie de prompt — Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Ingénierie_de_prompt",
+      "snippet": "Ingénierie de prompt L' ingénierie de prompt (de l'anglais prompt engineering), ou rédactique 1, est le processus de conception et de structuration d'un prompt, de sorte qu'il soit efficacement interprété et compris par un modèle d' intelligence artificielle générative 2.",
+      "timestamp": 1753836309.0355856
+    },
+    {
+      "title": "Prompt Engineering : Définition et Techniques de Prompts IA",
+      "url": "https://www.hostinger.com/fr/tutoriels/prompt-engineering",
+      "snippet": "Sep 26, 2024 · Les prompts engineers sont des experts en langage naturel chargés de communiquer avec les grands modèles de langage (LLM) afin d’obtenir les résultats souhaités. Dans cet article, nous vous expliquons l’essentiel du prompt engineering et ses concepts clés.",
+      "timestamp": 1753836309.0356612
+    },
+    {
+      "title": "Qu'est-ce que le prompt engineering ? Définition et exemples",
+      "url": "https://www.coursera.org/fr-FR/articles/what-is-prompt-engineering",
+      "snippet": "Mar 11, 2025 · Le prompt engineering est un terme technique qui désigne une action directe : il s'agit de proposer un prompt (ou requête) à un outil d'IA générative pour qu’il effectue une tâche.",
+      "timestamp": 1753836309.0357301
+    },
+    {
+      "title": "Prompt Engineering : le guide ultime pour maîtriser l'art des prompts",
+      "url": "https://www.proactiveacademy.fr/blog/ia/prompt-engineering-i/",
+      "snippet": "Mar 3, 2025 · Le Prompt Engineering apporte une réponse concrète : cette méthode transforme profondément l’échange avec les systèmes d’intelligence artificielle. Découvrez comment bien …",
+      "timestamp": 1753836309.035796
+    },
+    {
+      "title": "How to disable \"sign in with google\" prompt",
+      "url": "https://support.google.com/chrome/thread/299879732/how-to-disable-sign-in-with-google-prompt?hl=en",
+      "snippet": "The \"Sign in with Google\" prompt is a convenient feature that allows you to quickly log into websites using your existing Google account. However, if you prefer not to use …",
+      "timestamp": 1753836309.2078424
+    },
+    {
+      "title": "Doodle For Google 2025 Prompt - Google Search Community",
+      "url": "https://support.google.com/websearch/thread/317345504/doodle-for-google-2025-prompt?hl=en",
+      "snippet": "Jan 7, 2025 · This help content & informationGeneral Help Center experienceSearch",
+      "timestamp": 1753836309.2079651
+    },
+    {
+      "title": "VEO 3 keeps saying \"prompts only in english\", even when the prompt …",
+      "url": "https://support.google.com/gemini/thread/347700144/veo-3-keeps-saying-prompts-only-in-english-even-when-the-prompt-is-already-in-english?hl=en",
+      "snippet": "This help content & informationGeneral Help Center experienceSearch",
+      "timestamp": 1753836309.2080765
+    },
+    {
+      "title": "Tips for creating custom Gems - Gemini Apps Help",
+      "url": "https://support.google.com/gemini/answer/15235603?hl=en",
+      "snippet": "In the instructions box, write a sentence or two describing your goal. Click Use Gemini to re-write instructions . Review and edit the instructions. Tip: On the right, you can enter …",
+      "timestamp": 1753836309.2081761
+    },
+    {
+      "title": "How do you permanently turn off new outlook? - Microsoft Commun…",
+      "url": "https://answers.microsoft.com/en-us/outlook_com/forum/all/how-do-you-permanently-turn-off-new-outlook/e58781f7-5199-40ea-95f0-db3e40385eaa",
+      "snippet": "May 23, 2024 · I don't like it, I don't want it, I am not going to switch to it, and I never want to see it again. For the longest time it would periodically switch to the new outlook, I …",
+      "timestamp": 1753836309.2082608
+    },
+    {
+      "title": "Fine-tuning是什么意思？ - 知乎",
+      "url": "https://www.zhihu.com/question/24458804",
+      "snippet": "Fine-tuning是不是指在逐层训练之后用BP的方法从后向前调整权重？有没有其他的方法？",
+      "timestamp": 1753836310.3860283
+    },
+    {
+      "title": "RFT（拒绝采样微调）：提升大模型推理能力",
+      "url": "https://www.zhihu.com/tardis/bd/art/703848627",
+      "snippet": "Jan 21, 2025 · 背景 论文提出了应用RFT（Rejection sampling Fine-Tuning） 拒绝采样来生成和收集正确的推理路径，以此作为增强的微调数据集。 RFT能够生成包含更多独特推理路径的增强样本，更大 …",
+      "timestamp": 1753836310.3861215
+    },
+    {
+      "title": "OpenAI提出的RFT 强化学习微调是什么？数据集应该如何准备？",
+      "url": "https://www.zhihu.com/question/6232209061",
+      "snippet": "Dec 7, 2024 · OpenAI调用强化学习微调步骤 强化学习微调（ (Reinforcement Fine-Tuning)不同于以往的有监督微调算法，从它的名字中就可以知道，它是一种基于强化学习算法去做微调。 目前OpenAI …",
+      "timestamp": 1753836310.3861985
+    },
+    {
+      "title": "模仿学习与强化学习结合（IL+RL）有没有代表性论文？未来发展 …",
+      "url": "https://www.zhihu.com/question/1887374331903987967",
+      "snippet": "1 IL loss作为RL reward的一项 Improving Agent Behaviors with RL Fine-tuning for Autonomous Driving (也做了IL pretrain) CarPlanner: Consistent Auto-regressive Trajectory Planning for Large …",
+      "timestamp": 1753836310.3862698
+    },
+    {
+      "title": "Fine-tuning是什么意思？ - 知乎",
+      "url": "https://www.zhihu.com/question/24458804?sort=created",
+      "snippet": "Fine-tuning会更细预训练模型的特征提取器，Linear probing不会破坏预训练的特征提取器。因此Fine-tuning的方法会促使特征提取器更拟合进行微调的数据集，因此在ID Test上表现较好，在OOD Test …",
+      "timestamp": 1753836310.3863719
+    },
+    {
+      "title": "[2408.13296] The Ultimate Guide to Fine-Tuning LLMs fro…",
+      "url": "https://arxiv.org/abs/2408.13296",
+      "snippet": "Aug 23, 2024 · Emerging areas such as multimodal LLMs, fine-tuning for audio and speech, and challenges related to …",
+      "timestamp": 1753836311.007683
+    },
+    {
+      "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Bre…",
+      "url": "https://arxiv.org/html/2408.13296v1",
+      "snippet": "The report also highlights parameter-efficient fine-tuning methods such as Low-Rank Adaptation (LoRA) and Half …",
+      "timestamp": 1753836311.0077727
+    },
+    {
+      "title": "(PDF) The Ultimate Guide to Fine-Tuning LLMs from Basic…",
+      "url": "https://www.researchgate.net/publication/383428454_The_Ultimate_Guide_to_Fine-Tuning_LLMs_from_Basics_to_Breakthroughs_An_Exhaustive_Review_of_Technologies_Research_Best_Practices_Applied_Research_Challenges_and_Opportunities",
+      "snippet": "Aug 23, 2024 · It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to …",
+      "timestamp": 1753836311.0078552
+    },
+    {
+      "title": "LoftQ: Reimagining LLM fine-tuning with smarter initialization",
+      "url": "https://www.microsoft.com/en-us/research/blog/loftq-reimagining-llm-fine-tuning-with-smarter-initialization/",
+      "snippet": "May 7, 2024 · Our paper, “ LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models,” presented at ICLR 2024, details how this method can help make AI technologies more efficient and sustainable. LoftQ builds on the principles of LoRA and QLoRA.",
+      "timestamp": 1753836311.007926
+    },
+    {
+      "title": "[2403.14608] Parameter-Efficient Fine-Tuning for Large …",
+      "url": "https://arxiv.org/abs/2403.14608",
+      "snippet": "Mar 21, 2024 · In this survey, we present comprehensive studies of various PEFT algorithms, examining their …",
+      "timestamp": 1753836311.0079877
+    },
+    {
+      "title": "Transfers & Gerüchte | Transfermarkt",
+      "url": "https://www.transfermarkt.de/navigation/transfersundgeruechte",
+      "snippet": "3 days ago · Top-Transfer-Statistiken Neueste Transfers weltweit Neueste Transfers Bundesliga Neueste Transfers 2. Bundesliga …",
+      "timestamp": 1753836312.2362177
+    },
+    {
+      "title": "WHO AM I? | Fußball-Quiz | Transfermarkt",
+      "url": "https://www.transfermarkt.de/whoAmI",
+      "snippet": "Errate den gesuchten Spieler in 6 Versuchen! 🔍 Nationalität, Liga, Verein, Position, Alter, Rückennummer & Marktwert helfen dir auf …",
+      "timestamp": 1753836312.2363272
+    },
+    {
+      "title": "Fußball-Transfers, Gerüchte, Marktwerte und News | Transferma…",
+      "url": "https://www.transfermarkt.de/?hl=en-GB\\",
+      "snippet": "Transfermarkt - Das Fußball-Portal mit Transfers, Marktwerten, Gerüchten und Statistiken",
+      "timestamp": 1753836312.2364557
+    },
+    {
+      "title": "Die neuesten Transfers | Transfermarkt",
+      "url": "https://www.transfermarkt.de/statistik/neuestetransfers",
+      "snippet": "Zuletzt bestätigte Transfers: weltweit Alter Verein Neuer Verein Ablöse nach gewünschtem Land filtern",
+      "timestamp": 1753836312.2365634
+    },
+    {
+      "title": "Transferticker | Transfermarkt",
+      "url": "https://www.transfermarkt.de/aktuell/transfermarktticker/",
+      "snippet": "Der Transferticker von Transfermarkt gibt einen Überblick zu aktuellen Transfermeldungen, Trainerentlassungen …",
+      "timestamp": 1753836312.2368824
+    },
+    {
+      "title": "Transfer Learning in Robotics: An Upcoming Breakthrough? A …",
+      "url": "https://arxiv.org/abs/2311.18044",
+      "snippet": "Nov 29, 2023 · In this paper, we unify the concept of transfer learning in robotics and provide the first taxonomy of its kind considering the key concepts of robot, task, and environment.",
+      "timestamp": 1753836312.7978518
+    },
+    {
+      "title": "[2412.14116] Trustworthy Transfer Learning: A Survey - arXiv.org",
+      "url": "https://arxiv.org/abs/2412.14116",
+      "snippet": "Dec 18, 2024 · To answer these questions, this paper provides a comprehensive review of trustworthy transfer learning from various aspects, including problem definitions, theoretical …",
+      "timestamp": 1753836312.7979033
+    },
+    {
+      "title": "Transfer learning with graph neural networks for improved",
+      "url": "https://www.nature.com/articles/s41467-024-45566-8",
+      "snippet": "Feb 26, 2024 · We investigate the potential of graph neural networks for transfer learning and improving molecular property prediction on sparse and expensive to acquire high-fidelity data …",
+      "timestamp": 1753836312.79795
+    },
+    {
+      "title": "Learning and transfer in organisations: how it works and can be …",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/1359432X.2025.2463799",
+      "snippet": "In this article, we examine how learning and transfer in organisations function and how these processes can be supported. First, we trace the lines of change in learning and application.",
+      "timestamp": 1753836312.797993
+    },
+    {
+      "title": "Investigating explainable transfer learning for battery lifetime ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667141724000648",
+      "snippet": "Oct 1, 2024 · Hence, we develop two transfer learning methods, Bayesian Model Fusion and Weighted Orthogonal Matching Pursuit, to strategically combine prior knowledge with limited …",
+      "timestamp": 1753836312.7980523
+    },
+    {
+      "title": "如何理解轨迹预测的多模态（multimodal）？ - 知乎",
+      "url": "https://www.zhihu.com/question/504936452",
+      "snippet": "如何理解轨迹预测的多模态（multimodal）？ 轨迹预测（trajectory prediction）或运动预测（motion prediction）对自动驾驶意义重大.请简单明了解释一下什么是轨迹… 显示全部 关注者 …",
+      "timestamp": 1753836314.107759
+    },
+    {
+      "title": "多模态嵌入（Multimodal Embeddings）对AI应用有什么帮助？",
+      "url": "https://www.zhihu.com/question/3668118598",
+      "snippet": "多模态让AI成精了？理解多模态嵌入的真相 什么是多模态嵌入？先看个直观例子 想象一下： 你在淘宝搜\"清新文艺范短袖\" 系统不光看懂了文字 还理解了\"清新文艺范\"的画风 甚至懂得这种风 …",
+      "timestamp": 1753836314.107889
+    },
+    {
+      "title": "如何评价ACM MM会议？ - 知乎",
+      "url": "https://www.zhihu.com/question/541853916",
+      "snippet": "我去过ACM MM 2022开会，在葡萄牙里斯本。 这是一次很好玩的经历。 最开始去之前没有多想，以为主要是一些CV工作和同行的交流，但其实让我收获颇丰。在会场转了一圈，结实了一 …",
+      "timestamp": 1753836314.1079602
+    },
+    {
+      "title": "Multimodal最前线 - 知乎",
+      "url": "https://www.zhihu.com/column/c_1335274747177680896",
+      "snippet": "Multimodal最前线专栏介绍多模态技术的最新进展和应用，涵盖图像、文本等多种数据形式。",
+      "timestamp": 1753836314.1080256
+    },
+    {
+      "title": "大模型思维链（Chain-of-Thought）技术原理",
+      "url": "https://www.zhihu.com/tardis/bd/art/629087587",
+      "snippet": "Jan 21, 2025 · 但是，即使是 Few-Shot，这种方法还是有比较大的缺陷的。如果你的问题相对简单，不需要什么逻辑推理，可能靠大模型背答案就能做得不错，但是对于一些需要推理的问题， …",
+      "timestamp": 1753836314.1080859
+    },
+    {
+      "title": "[2402.05391] Knowledge Graphs Meet Multi-Modal Learning: A ...",
+      "url": "https://arxiv.org/abs/2402.05391",
+      "snippet": "Feb 8, 2024 · This survey aims to serve as a comprehensive reference for researchers already involved in or considering delving into KG and multi-modal learning research, offering insights …",
+      "timestamp": 1753836314.755951
+    },
+    {
+      "title": "Bio-Plausible Multimodal Learning with Emerging Neuromorphic …",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39258724/",
+      "snippet": "Sep 11, 2024 · Here, this work conducts a comparison between the expression of multimodal machine learning and multimodal neuromorphic computing, followed by an overview of the key …",
+      "timestamp": 1753836314.7560265
+    },
+    {
+      "title": "Learners’ continuance intention in multimodal language learning ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024041355",
+      "snippet": "Mar 30, 2024 · Confronted with the unprecedented COVID-19 pandemic, millions of learners have received, are receiving, or will receive multimodal language learning education.",
+      "timestamp": 1753836314.7560897
+    },
+    {
+      "title": "Editorial: Advances in multimodal learning: pedagogies, …",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10644768/",
+      "snippet": "Based on the four aspects of multimodality in learning, we classified the 15 articles into four themes: design of multimodal stimuli, affordances of multimodal learning space, analysis of …",
+      "timestamp": 1753836314.7561462
+    },
+    {
+      "title": "Multimodal Representation Learning by Alternating Unimodal …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Multimodal_Representation_Learning_by_Alternating_Unimodal_Adaptation_CVPR_2024_paper.pdf",
+      "snippet": "To address this challenge, we propose MLA (Multimodal Learning with Alternating Uni-modal Adaptation). MLA reframes the conventional joint multimodal learning process by transforming …",
+      "timestamp": 1753836314.756203
+    },
+    {
+      "title": "Érysipèle: symptômes, traitement, complications potentielles",
+      "url": "https://sante-medecine.journaldesfemmes.fr/forum/affich-100044925-erysipele-jambe-photo-traitement-pourquoi",
+      "snippet": "Le traitement consiste en l'administration d'un antibiotique et d'un antalgique. Les récidives sont fréquentes, d'où l'importance d'une hygiène irréprochable. Avez-vous déjà été confronté à …",
+      "timestamp": 1753836315.9274902
+    },
+    {
+      "title": "Quel traitement contre le murier du platane ? - Arbres et arbustes",
+      "url": "https://sante-medecine.journaldesfemmes.fr/forum/jardin/affich-41020207-quel-traitement-contre-le-murier-du-platane",
+      "snippet": "Quel traitement contre le murier du platane ? Maladie Utilisateur anonyme - 4 mars 2011 à 17:39 Utilisateur anonyme - 8 mars 2011 à 15:06 bonjour. comment traiter un murier platane de …",
+      "timestamp": 1753836315.92762
+    },
+    {
+      "title": "Guide de traitement des verrues séborrhéiques",
+      "url": "https://sante-medecine.journaldesfemmes.fr/forum/affich-100028182-verrue-seborrheique-photo-causes-comment-l-enlever",
+      "snippet": "Apr 5, 2025 · A noter qu'aucun traitement naturel n'a fait ses preuves jusqu'à présent. Vous connaissez des remèdes naturels contre ce type de lésions cutanées ? Source Répondre (2) 0 …",
+      "timestamp": 1753836315.9277103
+    },
+    {
+      "title": "Avis pylera - Journal des Femmes Santé",
+      "url": "https://sante-medecine.journaldesfemmes.fr/forum/affich-2483655-avis-pylera",
+      "snippet": "Jun 7, 2020 · Bonjour, Traitement pylera j+2 grosse migraine et grosse fatigue pour le moment seul effet que je ressent j’aimerais …",
+      "timestamp": 1753836315.9277918
+    },
+    {
+      "title": "Suite au traitement pylera [Résolu] - Journal des Femmes Santé",
+      "url": "https://sante-medecine.journaldesfemmes.fr/forum/affich-2275165-suite-au-traitement-pylera",
+      "snippet": "Bonjour, J'ai eu un traitement sous pylera pour éliminer une helicobacter pylori, j'ai arrêter le traitement depuis le 17 février, et depuis je suis prise d'énormes maux de ventre ainsi que de …",
+      "timestamp": 1753836315.9280803
+    },
+    {
+      "title": "Tal (chanteuse) — Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Tal_(chanteuse)",
+      "snippet": "En mars 2014 sort le documentaire Tal au Cinéma 48, réalisé par François Goetghebeur, qui présente le concert de la chanteuse ainsi que des images de coulisses.",
+      "timestamp": 1753836317.4485428
+    },
+    {
+      "title": "Tal : que devient la chanteuse qui se fait désormais appeler",
+      "url": "https://www.gala.fr/l_actu/news_de_stars/tal-que-devient-la-chanteuse-qui-se-fait-desormais-appeler-taloula_482591",
+      "snippet": "Mar 16, 2023 · Anciennement connue comme Tal, celle qui se fait désormais appeler Taloula fêtait le 12 décembre dernier son 31e anniversaire.",
+      "timestamp": 1753836317.44864
+    },
+    {
+      "title": "Tal Chanteuse : Découvrez l’Artiste Pop qui Enflamme la Scène …",
+      "url": "https://lecoup.fr/tal-chanteuse/",
+      "snippet": "Jan 12, 2025 · Tal, la talentueuse chanteuse pop française, est devenue célèbre avec son premier album Le Droit de Rêver, mélangeant pop, R&B et soul, et se réinventant plus tard sous le nom de Taloula.",
+      "timestamp": 1753836317.4487138
+    },
+    {
+      "title": "Tal Biographie : naissance, parcours, famille… - NRJ.fr",
+      "url": "https://www.nrj.fr/artistes/tal/biographie",
+      "snippet": "Chanteuse reconnue, Tal s'est fait connaître via le succès de \"On avance\" en France. Depuis, elle a connu de beaux succès musicaux et a sorti pas moins de 4 albums.",
+      "timestamp": 1753836317.448782
+    },
+    {
+      "title": "TAL : albums, chansons, concerts | Deezer",
+      "url": "https://www.deezer.com/fr/artist/320253",
+      "snippet": "TAL sur Deezer : discographie de l'artiste, top albums et chansons, concerts et featurings. Inscris-toi gratuitement !",
+      "timestamp": 1753836317.4488468
+    },
+    {
+      "title": "npj系列算不算nature子刊? - 知乎",
+      "url": "https://www.zhihu.com/question/15055775489",
+      "snippet": "npj 系列就是骗钱的期刊。谁tm告诉你是孙刊，完全就是加盟刊，交加盟费的，因为你被子刊拒了，人家甚至觉得你配不上scientific report ，人家还是想赚这笔 …",
+      "timestamp": 1753836318.7792218
+    },
+    {
+      "title": "Physical Intelligence 开源了 pi0 模型，你有什么评价？ - 知乎",
+      "url": "https://www.zhihu.com/question/13876009040",
+      "snippet": "你好！ 很高兴能跟你聊聊关于Physical Intelligence开源的 pi0模型。 首先，我觉得这个模型的推出是一个相当重要的里程碑。 我们在过去的几年中见证了AI在 …",
+      "timestamp": 1753836318.7792978
+    },
+    {
+      "title": "国行的手机在国外能用Apple intelligence吗? - 知乎",
+      "url": "https://www.zhihu.com/question/666894068",
+      "snippet": "Sep 11, 2024 · 国行 iPhone 15 Pro 开通 Apple Intelligence 的方法 尽管 iPhone 16 业已发布，但 Apple Intelligence 仍然处于开发状态，并且在 iOS …",
+      "timestamp": 1753836318.7793694
+    },
+    {
+      "title": "Stock photos, royalty-free images, graphics, vectors & videos",
+      "url": "https://stock.adobe.com/",
+      "snippet": "Search Adobe Stock for millions of royalty-free stock images, photos, graphics, vectors, video footage, illustrations, templates, 3d assets and high-quality premium content.",
+      "timestamp": 1753836320.0530372
+    },
+    {
+      "title": "Fotos de Stock, imágenes libres de derechos de autor, gráficos ...",
+      "url": "https://stock.adobe.com/mx/",
+      "snippet": "Busca en Adobe Stock entre millones de imágenes, fotos, gráficos, vectores, material de vídeo, ilustraciones, plantillas, recursos 3D y contenido prémium de archivo de alta calidad, todo ello libre de derechos de autor.",
+      "timestamp": 1753836320.0534933
+    },
+    {
+      "title": "Stock Photos, Stock Photography & Royalty-Free Images | Adobe …",
+      "url": "https://stock.adobe.com/photos",
+      "snippet": "Browse high quality and professional stock photos and royalty-free pictures and images. Bring your ideas to life with our photography collections for your creative projects at Adobe Stock.",
+      "timestamp": 1753836320.0535872
+    },
+    {
+      "title": "Adobe Stock Free collection: Photos, Vectors, Videos | Adobe Stock",
+      "url": "https://stock.adobe.com/free",
+      "snippet": "Stunning, diverse collection of free Adobe Stock photos, vectors and videos. Free to download, cleared for commercial-use, royalty-free, no credit card required.",
+      "timestamp": 1753836320.0536594
+    },
+    {
+      "title": "Fotografías de Stock, Fotos Libres de Derechos | Adobe Stock",
+      "url": "https://stock.adobe.com/mx/photos",
+      "snippet": "Explora fotos de archivo y e imágenes libres de derechos de autor de alta calidad y profesionales. Da vida a tus ideas con nuestras colecciones de fotos para tus proyectos creativos en Adobe Stock.",
+      "timestamp": 1753836320.053728
+    },
+    {
+      "title": "Rapport Mondial Sur Le Marché Des Agents Autonomes",
+      "url": "https://www.databridgemarketresearch.com/fr/reports/global-autonomous-agents-market",
+      "snippet": "Une tendance marquante sur le marché mondial des agents autonomes est l'intégration rapide de capacités avancées d'intelligence artificielle, permettant aux agents d'opérer de manière …",
+      "timestamp": 1753836320.561376
+    },
+    {
+      "title": "De nouveaux agents autonomes pour libérer le potentiel de vos …",
+      "url": "https://news.microsoft.com/source/emea/2024/10/de-nouveaux-agents-autonomes-pour-liberer-le-potentiel-de-vos-equipes/?lang=fr",
+      "snippet": "Oct 21, 2024 · L’arrivée de dix nouveaux agents autonomes dans Dynamics 365 pour renforcer les capacités de vos équipes commerciales, service client, finance et gestion des …",
+      "timestamp": 1753836320.5614934
+    },
+    {
+      "title": "Analyse de la taille et de la part du marché des agents …",
+      "url": "https://www.mordorintelligence.com/fr/industry-reports/autonomous-agents-market",
+      "snippet": "Statistiques sur la part de marché, la taille et le taux de croissance des revenus des agents autonomes 2024, créées par Mordor Intelligence™ Industry Reports.",
+      "timestamp": 1753836320.561579
+    },
+    {
+      "title": "Taille du marché de l'IA autonome et des agents autonomes, …",
+      "url": "https://www.gminsights.com/fr/industry-analysis/autonomous-ai-and-autonomous-agents-market",
+      "snippet": "La taille du marché mondial de l'IA autonome et des agents autonomes a été évaluée à 6,8 milliards de dollars en 2024 et devrait enregistrer un TCAC de 30,3% entre 2025 et 2034. La …",
+      "timestamp": 1753836320.5616443
+    },
+    {
+      "title": "Rapport d'étude de marché sur les agents IA autonomes dans le …",
+      "url": "https://pmarketresearch.com/fr/rapports/rapport-detude-de-marche-sur-les-agents-ia-autonomes-dans-le-monde-et-en-france/",
+      "snippet": "Le marché des agents autonomes d’intelligence artificielle (IA) connaît une croissance exponentielle, alimentée par l’avancement technologique et l’augmentation des applications …",
+      "timestamp": 1753836320.5617046
+    },
+    {
+      "title": "System Windows — pomoc i informacje - support.microsoft.com",
+      "url": "https://support.microsoft.com/pl-pl/windows",
+      "snippet": "Znajdź pomoc i instrukcje dotyczące systemów operacyjnych Windows. Uzyskaj pomoc techniczną dla systemu Windows i dowiedz się więcej o instalacji, aktualizacjach, prywatności, …",
+      "timestamp": 1753836322.277526
+    },
+    {
+      "title": "Jak uzyskać pomoc w systemie Windows 10 i 11?",
+      "url": "https://pl.windowsnoticias.com/jak-uzyskać-pomoc-w-systemie-Windows-10-11/",
+      "snippet": "Za pomocą Pomocy systemu Windows możemy: Jeśli Twój komputer zawiesza się, nie możesz znaleźć pliku lub pojawił się komunikat o błędzie, którego nie rozpoznajesz, potrzebujesz …",
+      "timestamp": 1753836322.2776322
+    },
+    {
+      "title": "Jak uzyskać pomoc w systemie Windows? 8 łatwych sposobów",
+      "url": "https://windows.atsit.in/pl/11948/",
+      "snippet": "May 8, 2023 · Jeśli nie wiesz, co musisz zrobić, lub potrzebujesz pomocy z zewnątrz w wykonywaniu instrukcji, możesz skorzystać z funkcji Pomoc zdalna lub Szybka pomoc w …",
+      "timestamp": 1753836322.277708
+    },
+    {
+      "title": "Jak korzystać z aplikacji Uzyskaj pomoc w systemie Windows 11/10",
+      "url": "https://pl.101-help.com/jak-korzystac-z-aplikacji-uzyskaj-pomoc-w-systemie-windows-11-10-0d0c17339e/",
+      "snippet": "Zadzwoń lub porozmawiaj z zespołem pomocy technicznej firmy Microsoft za pomocą aplikacji Uzyskaj pomoc w systemie Windows. Rozwiąż problemy dotyczące Windows, OneDrive, …",
+      "timestamp": 1753836322.2777815
+    },
+    {
+      "title": "Jak uzyskać pomoc w systemie Windows 11: 15 Skuteczne metody",
+      "url": "https://elsefix.com/pl/tech/afton/how-to-get-help-in-windows-11-15-effective-methods.html",
+      "snippet": "Windows 11 oferuje wiele sposobów na uzyskanie pomocy podczas napotkania problemów lub masz pytania dotyczące korzystania z systemu. Ten przewodnik przeprowadzi Cię przez 15 …",
+      "timestamp": 1753836322.2778504
+    },
+    {
+      "title": "Yle Areena | Sarjat. Podcastit. Suorat.",
+      "url": "https://areena.yle.fi/tv",
+      "snippet": "Yle Areena on Suomen monipuolisin suoratoistopalvelu. Katso ja kuuntele sarjoja, elokuvia, podcasteja, dokumentteja, uutisia, urheilua, suoria lähetyksiä ja paljon muuta.",
+      "timestamp": 1753836323.6399248
+    },
+    {
+      "title": "Suorat | Yle Areena",
+      "url": "https://areena.yle.fi/suorat",
+      "snippet": "Suorat, jotka on pakko katsoa – Yle Areena. Sarjat. Podcastit. Suorat.",
+      "timestamp": 1753836323.6400146
+    },
+    {
+      "title": "TV-opas | Ohjelmat tänään | Yle Areena",
+      "url": "https://areena.yle.fi/tv/opas",
+      "snippet": "Suorat, jotka on pakko katsoa – Yle Areena. Sarjat. Podcastit. Suorat.",
+      "timestamp": 1753836323.6401055
+    },
+    {
+      "title": "Parhaat kotimaiset ja ulkomaiset sarjat Yle Areenassa",
+      "url": "https://areena.yle.fi/tv/ohjelmat/57-p8JeXvBA0",
+      "snippet": "Yle Areenasta löydät runsaasti kotimaista draamaa, rikosjännäreitä, brittidraamaa ja muita laatusarjoja kaikenikäisille Suomesta ja ulkomailta. Sekä tietysti parhaat kotimaiset dokkarisarjat.",
+      "timestamp": 1753836323.6401808
+    },
+    {
+      "title": "Etusivu | TV | Areena | yle.fi",
+      "url": "https://branch-areena.yle.fi/aEY4LL1mGN",
+      "snippet": "Yle Areena - Suomen suurin netti-tv ja radio. Yle Areenassa on tarjolla radio- ja televisio-ohjelmia, suoria lähetyksiä sekä ohjelmatiedot.",
+      "timestamp": 1753836323.640251
+    },
+    {
+      "title": "2024 en rétrospective : transformations et défis relevés de la veille ...",
+      "url": "https://www.veillemag.com/2024-en-retrospective-transformations-et-defis-releves-de-la-veille-strategique-Par-Arnaud-Marquant_a5520.html",
+      "snippet": "Dec 11, 2024 · En 2024, le secteur de la veille stratégique a traversé une année marquée par l'innovation technologique, une adoption accrue de l'intelligence artificielle et une transformation …",
+      "timestamp": 1753836324.1629722
+    },
+    {
+      "title": "Veiller les technologies émergentes - ONISTS",
+      "url": "https://www.gendarmerie.interieur.gouv.fr/onists/notre-offre-de-service/veiller-les-technologies-emergentes",
+      "snippet": "Mar 8, 2024 · Les sciences et technologies susceptibles de présenter des opportunités pour l'investigation criminelles ou des risques d'utilisation malveillante sont trop nombreuses pour être …",
+      "timestamp": 1753836324.1630557
+    },
+    {
+      "title": "Cas d'usage : Agent IA pour Veille Technologique | Swiftask",
+      "url": "https://www.swiftask.ai/fr-fr/use-case/use-case-technology-monitoring",
+      "snippet": "Restez à l'avant-garde de votre secteur grâce à notre agent IA de veille technologique. Identifiez les tendances émergentes, surveillez vos concurrents et prenez des décisions éclairées basées sur …",
+      "timestamp": 1753836324.16312
+    },
+    {
+      "title": "Etat de la veille 2024 - Article de revue - INRS",
+      "url": "https://www.inrs.fr/media.html?refINRS=VP+44",
+      "snippet": "Article HST (veille & prospective) présentant un état de la veille sur l'année 2024 du point de vue de la prévention des risques professionnels face aux enjeux essentiels que sont les transformations …",
+      "timestamp": 1753836324.1632094
+    },
+    {
+      "title": "Automatiser la veille technologique avec des agents IA",
+      "url": "https://tekzone.fr/2025/04/28/automatiser-la-veille-technologique-avec-des-agents-ia/",
+      "snippet": "Apr 28, 2025 · En résumé, automatiser la veille technologique grâce aux agents IA est essentiel pour toute entreprise désireuse de rester compétitive. Grâce à la collecte et l’analyse …",
+      "timestamp": 1753836324.1632707
+    },
+    {
+      "title": "Where should I put  tags in HTML markup?",
+      "url": "https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup",
+      "snippet": "So, where is the right place to put the  tags? (This question references this question, in which it was suggested that JavaScript function calls should be moved from  …",
+      "timestamp": 1753836325.4611177
+    },
+    {
+      "title": "JavaScript Kodları Nereye Yazılır? (Harici, Dahili, Satır İçi)",
+      "url": "https://www.mehsatek.com/javascript-kodlari-nereye-yazilir/",
+      "snippet": "Dec 10, 2019 · Html sayfasının içerisinde  etiketi oluşturup içerisine JavaScript kodlarımızı yazabiliriz. Genelde  etiketleri içerisinde en altta …",
+      "timestamp": 1753836325.4619021
+    },
+    {
+      "title": "HTML script tag - W3Schools",
+      "url": "https://www.w3schools.com/Tags/tag_script.asp",
+      "snippet": "The  tag is used to embed a client-side script (JavaScript). The  element either contains scripting statements, or it points to an external script file through the …",
+      "timestamp": 1753836325.4619868
+    },
+    {
+      "title": "JAVASCRİPT KODLARI NEREYE YAZILIR VE AÇIKLAMA SATIRI - W…",
+      "url": "https://www.webcebir.com/140-javascript-kodlari-nereye-yazilir-ve-aciklama-satiri-dersi.html",
+      "snippet": "HTML sayfalarının içerisine JavaScript kodlarını sınırsız şekilde yerleştirebilirsiniz. JavaScript komutları  ve  bölümlerinde yada her iki bölümde yer …",
+      "timestamp": 1753836325.4622922
+    },
+    {
+      "title": "HTML Script Tag - Online Tutorials Library",
+      "url": "https://www.tutorialspoint.com/html/html_script_tag.htm",
+      "snippet": "The HTML  tag can be placed in both  and  elements. Although the script's location within an HTML document does not affect its execution, scripts that …",
+      "timestamp": 1753836325.4623694
+    },
+    {
+      "title": "Recuperar contraseña de Facebook: con y sin correo o número",
+      "url": "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/915-que-hacer-si-olvidaste-tu-contrasena-de-facebook/",
+      "snippet": "Jul 19, 2023 · ¿Has olvidado tu contraseña de Facebook y no puedes entrar? En este artículo te explicamos cómo recuperar tu cuenta si olvidaste tu contraseña, incluso sin usar tu correo o tu …",
+      "timestamp": 1753836325.6818683
+    },
+    {
+      "title": "Descargar Facebook gratis para PC, iOS, Android APK - CCM",
+      "url": "https://es.ccm.net/descargas/comunicacion/5426-facebook/",
+      "snippet": "Jan 23, 2024 · Con más de 2.800 millones de usuarios activos al mes, la red social más grande del mundo te permite permanecer en contacto con amigos y familiares y volver a conectarte …",
+      "timestamp": 1753836325.6819792
+    },
+    {
+      "title": "Créer un raccourci de Facebook sur mon bureau [Résolu]",
+      "url": "https://forums.commentcamarche.net/forum/affich-26565072-creer-un-raccourci-de-facebook-sur-mon-bureau",
+      "snippet": "Bonjour, Il suffit de se rendre sur la page d'accueil facebook, de cliquer (en restant appuyé) sur le logo \"Facebook\" en haut a gauche, et de tout simplement faire glisser (en restant toujours …",
+      "timestamp": 1753836325.6820765
+    },
+    {
+      "title": "Facebook Parejas: cómo activarlo, app, PC, no aparece 2023",
+      "url": "https://es.ccm.net/aplicaciones-e-internet/redes-sociales-y-mensajeria/1700-como-activar-facebook-parejas/",
+      "snippet": "Jun 15, 2023 · Facebook Parejas o Facebook Dating es el servicio de citas y encuentros de Facebook. La red social tiene tanta información sobre sus usuarios (para bien y para mal), …",
+      "timestamp": 1753836325.6821635
+    },
+    {
+      "title": "Je ne peux plus me connecter à mon compte Facebook, …",
+      "url": "https://forums.commentcamarche.net/forum/affich-23157170-je-ne-peux-plus-me-connecter-a-mon-compte-facebook-comment-faire",
+      "snippet": "Bonjour, Depuis 1 semaine maintenant, j'essaye sans cesse de me connecter sur Facebook mais j'ai sans arret ce message qui s'affiche. - Une erreur s'est produite. Nous travaillons à la …",
+      "timestamp": 1753836325.6822479
+    },
+    {
+      "title": "QUERY function - Google Docs Editors Help",
+      "url": "https://support.google.com/docs/answer/3093343?hl=en",
+      "snippet": "QUERY(A2:E6,F2,FALSE) Syntax. QUERY(data, query, [headers]) data - The range of cells to perform the query on. Each column of data can only hold boolean, numeric (including …",
+      "timestamp": 1753836327.0090942
+    },
+    {
+      "title": "Función QUERY - Ayuda de Editores de Documentos de Google",
+      "url": "https://support.google.com/docs/answer/3093343?hl=es-419",
+      "snippet": "QUERY(A2:E6,\"select avg(A) pivot B\") QUERY(A2:E6,F2,FALSO) Sintaxis. QUERY(datos, consulta, [encabezados]) datos: Rango de celdas en el que se hará la consulta. Cada …",
+      "timestamp": 1753836327.009221
+    },
+    {
+      "title": "QUERY - Cправка - Редакторы Google Документов",
+      "url": "https://support.google.com/docs/answer/3093343?hl=ru",
+      "snippet": "query(данные; запрос; [заголовки]) данные – диапазон ячеек, для которого нужно выполнить запрос. Каждый столбец данных может содержать только логические, числовые …",
+      "timestamp": 1753836327.0095396
+    },
+    {
+      "title": "[GOOGLE SHEETS] FUNCIÓN QUERY: USO DE LA …",
+      "url": "https://support.google.com/docs/community-video/219940811/google-sheets-funciÓn-query-uso-de-la-clÁusula-select?hl=es",
+      "snippet": "#UnExpertoDeGoogleTeAyuda #AyudaGoogle #query #NationalSpreadsheetDay En este vídeo aprenderemos el uso básico de la función QUERY con la cláusula SELECT para personalizar …",
+      "timestamp": 1753836327.0096743
+    },
+    {
+      "title": "[GA4] Queries report - Computer - Analytics Help",
+      "url": "https://support.google.com/analytics/answer/13682862?hl=en&co=GENIE.Platform=Desktop",
+      "snippet": "Organic Google search query: The query that triggered an impression. This metric requires an active Search Console link. Country: The country from which user activity originated. For …",
+      "timestamp": 1753836327.0097833
+    },
+    {
+      "title": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "snippet": "ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.",
+      "timestamp": 1753836327.2162035
+    },
+    {
+      "title": "Introducing ChatGPT - OpenAI",
+      "url": "https://openai.com/index/chatgpt/",
+      "snippet": "Nov 30, 2022 · We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its …",
+      "timestamp": 1753836327.216334
+    },
+    {
+      "title": "What is ChatGPT? - OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6783457-what-is-chatgpt",
+      "snippet": "ChatGPT is fine-tuned from GPT-3.5, a language model trained to produce text. ChatGPT was optimized for dialogue by using Reinforcement Learning with Human Feedback (RLHF) – a …",
+      "timestamp": 1753836327.2164505
+    },
+    {
+      "title": "ChatGPT - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "snippet": "ChatGPT is a generative artificial intelligence chatbot developed by OpenAI and released on November 30, 2022. It uses generative pre-trained transformers (GPTs), such as GPT-4o or …",
+      "timestamp": 1753836327.2165706
+    },
+    {
+      "title": "ChatGPT - التطبيقات على Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=ar",
+      "snippet": "هناك فرق كبير بين ChatGPT العادي (المجاني) وChatGPT Plus (المدفوع). تجربة الـPlus مختلفة تمامًا: النماذج المتاحة أكثر وأذكى بكثير، عدد الرسائل غير محدود، توليد الصور أيضًا غير محدود وأكثر تقدمًا، بالإضافة إلى إمكانية رفع الملفات ...",
+      "timestamp": 1753836327.2167037
+    },
+    {
+      "title": "أفلام مدرسية: أفضل 30 فيلم عن المدارس الثانوية والجامعات | موفيبيديا",
+      "url": "https://moviepediaa.com/أفضل-أفلام-مدرسية-الثانوية-والجامعات/",
+      "snippet": "Feb 26, 2024 · يتحدث الفيلم عن مجموعة شباب يؤسسون جامعتهم الخاصة بعد فشلهم في الثانوية العامة، وتتوالى الأحداث في إطار يلقي بالضوء على عيوب وتحديات النظام التعليمي المصري وتأثيره على حياتنا.",
+      "timestamp": 1753836328.396856
+    },
+    {
+      "title": "مع اقتراب العام الدراسي الجديد.. إليكم أشهر أفلام مدرسية مشاكسة لشقاوة ...",
+      "url": "https://www.arageek.com/art/movies-about-studying",
+      "snippet": "Aug 13, 2023 · تدور أحداث فيلم “A Walk to Remember” في مدينة بوفورت، هناك يوجد طالب مدرسة ثانوية معروف بتمرده وسخريته الدائمة من أصدقائه يدعى “لاندون كارتر”. ذات يوم قام ومجموعة من الأصدقاء، باستدراج الطالب الجديد “كلاي جيبهاردت” إلى مصنع، …",
+      "timestamp": 1753836328.396992
+    },
+    {
+      "title": "أفضل 10 أفلام في المدرسة الثانوية: شاهد الآن في أي وقت مجانًا",
+      "url": "https://www.topsevenreviews.com/ar/best-high-school-movies/",
+      "snippet": "Honor Society هو فيلم في المدرسة الثانوية يحكي قصة الشرف. إنها طالبة طموحة في الثانوية العامة ، ولديها الحافز للالتحاق بجامعة هارفارد ، بافتراض أنها تستطيع أولاً تسجيل التوصية المرغوبة من مستشار ...",
+      "timestamp": 1753836328.3970947
+    },
+    {
+      "title": "أفضل الأفلام عن التعليم.. روائع سينمائية لا تُنسى",
+      "url": "https://www.sayidaty.net/node/958506/أسرة-ومجتمع/ثقافة-وعلوم/أفضل-الأفلام-عن-التعليم-روائع-سينمائية-لا-تُنسى",
+      "snippet": "ربما يكون فيلم «دينجيريس مايند» Dangerous Mind، أو عقول خطيرة الذي أدت بطولته النجمة الأمريكية «ميشيل فايفير»، واحداً من أشهر الأفلام في هذا التصنيف.",
+      "timestamp": 1753836328.3972018
+    },
+    {
+      "title": "اقوى افلام عن طلاب المدارس والجامعات وفترة المراهقة - YouTube",
+      "url": "https://www.youtube.com/watch?v=p1oQzvZ_v68",
+      "snippet": "قائمة كاملة من أقوى افلام عن طلاب المدارس والجامعات وافلام المراهقة - تجميعة من افضل افلام مدرسية ستشاهدها ...",
+      "timestamp": 1753836328.3973339
+    },
+    {
+      "title": "Gestion de données et analytique : ces six tendances qui ont façonné 2…",
+      "url": "https://www.lemagit.fr/actualites/366617676/Gestion-de-donnees-et-analytique-ces-six-tendances-qui-ont-faconne-2024",
+      "snippet": "Jan 6, 2025 · L’évolution des plateformes de données en cadre de développement d’applications d’IA et l’émergence de l’IA …",
+      "timestamp": 1753836328.9066865
+    },
+    {
+      "title": "Les tendances de l'analytique des données en 2024 - Tw3 Partners",
+      "url": "https://tw3partners.fr/fr/tendances-analytique-donnees-2024/",
+      "snippet": "Jun 24, 2024 · Découvrez les tendances clés de l'analytique des données en 2024 pour améliorer vos stratégies et performances.",
+      "timestamp": 1753836328.9067683
+    },
+    {
+      "title": "5 tendances en analyse de données pour 2024 - EDHEC Online",
+      "url": "https://online.edhec.edu/fr/blog/5-tendances-en-analyse-de-donnees-pour-2024/",
+      "snippet": "Jan 23, 2024 · Découvrez les 5 tendances à suivre de près en 2024 en matière d’analyse de données (mais aussi de collecte, de stockage et d’exploitation) !",
+      "timestamp": 1753836328.9068375
+    },
+    {
+      "title": "Top 5 des prévisions et tendances en matière d'analyse de données pour ...",
+      "url": "https://www.solix.com/fr/blog/top-data-analytics-predictions-and-trends-2024/",
+      "snippet": "Feb 16, 2024 · Découvrez les 5 principales prévisions en matière d'analyse de données pour 2024. Gardez une longueur d'avance grâce à …",
+      "timestamp": 1753836328.9069023
+    },
+    {
+      "title": "Data & AI Trends & Predictions 2024 | DataCamp",
+      "url": "https://www.datacamp.com/fr/report/data-trends-predictions-2024",
+      "snippet": "By almost every metric, 2023 has been a watershed moment for data and AI. 2024 will be a defining year for organizations and individuals …",
+      "timestamp": 1753836328.906962
+    },
+    {
+      "title": "Publications de l'année 2024",
+      "url": "https://www.icmmo.universite-paris-saclay.fr/fr/publis/2024/",
+      "snippet": "Meriem, M. Zidani, H. Boutefnouchet, A. Ziouche, T. Abid, F. Brisset, T. Baudin, E. Proverbio, steel research international, 2024 Electrochemical approach of the reductive activation of O2 …",
+      "timestamp": 1753836330.6007187
+    },
+    {
+      "title": "Synthèse Organique & Phytochimie | SOPhy | Institut de Chimie …",
+      "url": "https://institut-chimie.unistra.fr/en/research-groups/synthese-organique-phytochimie-sophy/",
+      "snippet": "Small molecules that serve as standards for elucidating biosynthetic pathways in plants are being synthesized. Oxidized metabolites of jasmonates that are involved plant defence are being …",
+      "timestamp": 1753836330.600805
+    },
+    {
+      "title": "L’intelligence artificielle au service des usagers et des agents",
+      "url": "https://www.modernisation.gouv.fr/files/2025-01/CP_IA_DITP_IA_SUMMIT.pdf",
+      "snippet": "La direction interministérielle de la transformation publique (DITP) pilote le programme de transformation publique défini par le Gouvernement pour une action publique plus proche, plus …",
+      "timestamp": 1753836330.6008766
+    },
+    {
+      "title": "2024: research in review - Nature",
+      "url": "https://www.nature.com/articles/s41587-024-02508-5.pdf",
+      "snippet": "Researchers continued to build better AI-based models for protein structure pre-diction and design, notably Alphafold31 and RoseTTAFold All-Atom2.",
+      "timestamp": 1753836330.6009429
+    },
+    {
+      "title": "Nouvelles stratégies de synthèse orientées vers la diversité pour ...",
+      "url": "https://anr.fr/Project-ANR-08-JCJC-0094",
+      "snippet": "The overarching goal of our project is to develop an original bond construction strategy based on iterative multifunctionalization of unactivated C-H bonds in nitrogen-containing heterocycles. …",
+      "timestamp": 1753836330.601004
+    },
+    {
+      "title": "Amazon.fr",
+      "url": "https://www.amazon.fr/gp/css/your-account-access",
+      "snippet": "Accédez à votre compte Amazon.fr pour gérer vos commandes, abonnements et informations personnelles.",
+      "timestamp": 1753836331.7574987
+    },
+    {
+      "title": "Votre compte - Amazon.fr",
+      "url": "https://www.amazon.fr/gp/css/homepage.html?from=hz",
+      "snippet": "Inscrivez-vous gratuitement pour économiser sur vos achats professionnels et télécharger vos factures avec TVA. …",
+      "timestamp": 1753836331.757648
+    },
+    {
+      "title": "Amazon.fr : livres, DVD, jeux vidéo, musique, high-tech, infor…",
+      "url": "https://www.amazon.fr/",
+      "snippet": "Achat et vente en ligne parmi des millions de produits en stock. Livraison gratuite à partir de 25€. Vos articles à petits prix …",
+      "timestamp": 1753836331.7577236
+    },
+    {
+      "title": "Amazon.fr : Votre Compte",
+      "url": "https://www.amazon.fr/compte/s?k=votre+compte",
+      "snippet": "Rendez-vous sur la section d'aide ou contactez-nous. Pour plus d'informations sur nos critères de classement, …",
+      "timestamp": 1753836331.7578168
+    },
+    {
+      "title": "Gestion de Votre compte - Service client Amazon",
+      "url": "https://www.amazon.com.be/gp/help/customer/display.html?nodeId=GX7AZREFL3D5VC2D",
+      "snippet": "En quoi consistent les comptes créés avec un numéro de téléphone mobile ? Que sont les profils d'achat ? Ces …",
+      "timestamp": 1753836331.757911
+    },
+    {
+      "title": "2626 South 108 Street - Burger King",
+      "url": "https://www.bk.com/store-locator/store/restaurant_1989",
+      "snippet": "2626 south 108 street Directions WEST ALLIS WI, 53227 4143211772 Ways to order Mobile Ordering & Pickup",
+      "timestamp": 1753836331.9357002
+    },
+    {
+      "title": "Burger King - West Allis, WI - Yelp",
+      "url": "https://www.yelp.com/biz/burger-king-west-allis",
+      "snippet": "Mar 30, 2019 · BURGER KING, 6746 W Greenfield Ave, West Allis, WI 53214, 89 Photos, Mon - 6:00 am - 9:00 pm, Tue  …",
+      "timestamp": 1753836331.9357877
+    },
+    {
+      "title": "Burger King menu - West Allis WI 53227 - (414) 321-1772 - Al…",
+      "url": "https://www.allmenus.com/wi/west-allis/218372-burger-king/menu/",
+      "snippet": "Restaurant menu, map for Burger King located in 53227, West Allis WI, 2626 S 108th St.",
+      "timestamp": 1753836331.9358761
+    },
+    {
+      "title": "West Allis Burger King demolished after 'public nuisan…",
+      "url": "https://www.fox6now.com/news/west-allis-burger-king-demolished",
+      "snippet": "Feb 6, 2024 · A vacant West Allis Burger King at the center of a months-long legal battle came down Tuesday. The city …",
+      "timestamp": 1753836331.9360175
+    },
+    {
+      "title": "Burger King 2626 S 108th St West Allis, WI 53227 - Menu W…",
+      "url": "https://menuwithpricesonline.com/burger-king-menu/wi/west-allis/10042/",
+      "snippet": "Burger King 2626 S 108th St West Allis, WI 53227: get restaurant menu, price, hours, phone, and location on the map.",
+      "timestamp": 1753836331.9360816
+    },
+    {
+      "title": "Cache leeren und Cookies löschen",
+      "url": "https://support.google.com/accounts/answer/32050?hl=de&co=GENIE.Platform=Desktop",
+      "snippet": "Wie Sie weitere Cookie-Einstellungen in Chrome ändern, erfahren Sie hier. Sie können beispielsweise Cookies für eine bestimmte Website löschen. In anderen Browsern Wenn Sie …",
+      "timestamp": 1753836333.4179375
+    },
+    {
+      "title": "Download and install Google Chrome",
+      "url": "https://support.google.com/chrome/answer/95346?hl=en-GB&co=GENIE.Platform=Desktop",
+      "snippet": "How to install Chrome Important: Before you download, you can check if Chrome supports your operating system and other system requirements.",
+      "timestamp": 1753836333.4180365
+    },
+    {
+      "title": "Suchverlauf verwalten und löschen",
+      "url": "https://support.google.com/websearch/answer/6096136?hl=de&co=GENIE.Platform=Desktop",
+      "snippet": "Suchverlauf verwalten und löschen Wenn Sie die Google Suche verwenden und die „Web- & App-Aktivitäten“ aktivieren, speichert Google Aktivitäten wie den Suchverlauf in Ihrem Google …",
+      "timestamp": 1753836333.4181197
+    },
+    {
+      "title": "Download Chrome - Google Help",
+      "url": "https://support.google.com/chrome/answer/15315800?hl=en",
+      "snippet": "You can browse the web on your iPhone or iPad with Chrome.",
+      "timestamp": 1753836333.4181967
+    },
+    {
+      "title": "想问一下大家web of science文献检索点不动 只能用作者检索怎么 …",
+      "url": "https://www.zhihu.com/question/554644931",
+      "snippet": "点开web of science，在你的界面点击你的用户图标，并选择结束会话并注销，然后会转到登录界面。 在登录界面不要选择个人账号登录，往下稍微一翻，会有一个机构登录，点开并在列表 …",
+      "timestamp": 1753836333.418259
+    },
+    {
+      "title": "Mobile livescore - Flashscore.mobi football scores",
+      "url": "https://www.flashscore.mobi/",
+      "snippet": "Follow current football live scores on your mobile phone! Check current football livescore on the way with optimized …",
+      "timestamp": 1753836333.5878034
+    },
+    {
+      "title": "Mobile livescore - Flashscore.mobi floorball scores",
+      "url": "https://www.flashscore.mobi/floorball/",
+      "snippet": "Follow current floorball live scores on your mobile phone! Check current floorball livescore on the way with optimized …",
+      "timestamp": 1753836333.5878928
+    },
+    {
+      "title": "Mobile livescore - Flashscore.mobi american football scores",
+      "url": "https://www.flashscore.mobi/american-football/",
+      "snippet": "Follow current american football live scores on your mobile phone! Check current american football livescore on the way …",
+      "timestamp": 1753836333.5879626
+    },
+    {
+      "title": "Mobile livescore - Flashscore.mobi hockey scores",
+      "url": "https://www.flashscore.mobi/hockey/",
+      "snippet": "Follow current hockey live scores on your mobile phone! Check current hockey livescore on the way with optimized …",
+      "timestamp": 1753836333.588025
+    },
+    {
+      "title": "Mobile livescore - Flashscore.mobi basketball scores",
+      "url": "https://www.flashscore.mobi/basketball/",
+      "snippet": "Follow current basketball live scores on your mobile phone! Check current basketball livescore on the way with optimized …",
+      "timestamp": 1753836333.5880847
+    }
+  ]
+}
