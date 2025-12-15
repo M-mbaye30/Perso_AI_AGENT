@@ -263,6 +263,9 @@ def main():
     for msg in st.session_state.messages:
         render_message(msg['role'], msg['content'], msg.get('timestamp'))
     
+    # Add vertical space to push input down
+    st.markdown("<br><br><br><br><br><br><br><br><br><br>", unsafe_allow_html=True)
+    
     # Input area at bottom
     st.markdown("###")
     
