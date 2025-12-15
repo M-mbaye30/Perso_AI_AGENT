@@ -1,8 +1,8 @@
-# Enterprise AI Orchestrator
+# AI Orchestrator
 
 ## Overview
 
-The **Enterprise AI Orchestrator** is a self-hosted, autonomous multi-agent system designed for secure document analysis and strategic reasoning. It leverages local Large Language Models (LLMs) to ensure data sovereignty and compliance with strict privacy regulations.
+The **AI Orchestrator** is a self-hosted, autonomous multi-agent system designed for document analysis and strategic reasoning. It leverages local Large Language Models (LLMs) to ensure data sovereignty and compliance with strict privacy regulations.
 
 Unlike traditional RAG pipelines, this system employs an **Agentic Architecture** where specialized agents (Analysis, Extraction, Reasoning, Validation) collaborate to solve complex tasks dynamically.
 
