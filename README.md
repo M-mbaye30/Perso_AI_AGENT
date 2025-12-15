@@ -1,82 +1,61 @@
-# Agent de Veille Technologique NLP 🤖
-## 📖 Description
+# Enterprise AI Orchestrator
 
-Agent intelligent de veille technologique spécialisé dans le **Natural Language Processing (NLP)**. Ce système automatise la surveillance, l'analyse et la synthèse des dernières avancées en NLP en parcourant le web, extrayant du contenu pertinent, et générant des rapports de veille structurés.
+## Overview
 
-L'agent effectue des cycles complets de veille : recherche web → extraction de contenu → analyse NLP → génération de rapport.
+The **Enterprise AI Orchestrator** is a self-hosted, autonomous multi-agent system designed for secure document analysis and strategic reasoning. It leverages local Large Language Models (LLMs) to ensure data sovereignty and compliance with strict privacy regulations.
 
-## ✨ Fonctionnalités Principales
+Unlike traditional RAG pipelines, this system employs an **Agentic Architecture** where specialized agents (Analysis, Extraction, Reasoning, Validation) collaborate to solve complex tasks dynamically.
 
-- 🔍 **Recherche Automatisée** - Parcourt le web à la recherche de contenus NLP pertinents
-- 📄 **Extraction Intelligente** - Extrait le contenu principal des articles et papers
-- 🧠 **Analyse NLP** - Évalue la pertinence et extrait les insights clés
-- 📊 **Rapports Structurés** - Génère des synthèses détaillées avec scores de pertinence
-- 🔄 **Surveillance Continue** - Monitoring programmé avec intervalles configurables
-- 🎯 **Recherche Ciblée** - Requêtes spécifiques sur des sujets précis
-- 📈 **Métriques Détaillées** - Statistiques de performance et d'efficacité
-- 🔒 **Validation Sécurisée** - Vérification des URLs et gestion des erreurs
+## Key Features
 
-## 🏗️ Architecture
+- **Data Sovereignty**: Runs entirely On-Premise (Local GPU/CPU). No data leaves your infrastructure.
+- **Agentic Orchestration**: Autonomous planning and delegation of tasks.
+- **Document Intelligence**: Native PDF support with semantic analysis.
+- **Modular Design**: extensible `core` and `agents` architecture.
 
-```
-TechWatchAgent
-├── Phase 1: Recherche Web
-│   ├── search_nlp_papers()
-│   └── search_web()
-├── Phase 2: Extraction
-│   ├── extract_content()
-│   └── validate_url()
-├── Phase 3: Analyse NLP
-│   ├── analyze_nlp_relevance()
-│   └── extract_key_insights()
-└── Phase 4: Synthèse
-    ├── generate_tech_watch_report()
-    └── save_reports()
-``
+## Architecture
 
-## 📈 Métriques et Performance
+The system is built on a modular Python framework:
 
-L'agent collecte automatiquement :
+- **Core**:
+  - `Orchestrator`: Central intelligence managing workflow and state.
+  - `OllamaClient`: Secure wrapper for local LLM inference (e.g., Llama 3).
+- **Agents**:
+  - `DocumentAnalysisAgent`: Summarization and key topic identification.
+  - `ExtractionAgent`: Structured data extraction (JSON) from unstructured text.
+  - `ReasoningAgent`: Complex problem decomposition and planning.
+  - `ValidationAgent`: Quality control and hallucination checking.
 
-- **Taux de succès** par phase
-- **Temps d'exécution** moyen par cycle
-- **Score de pertinence** moyen
-- **Nombre de documents** traités
-- **Taux d'erreur** et types d'erreurs
+## Usage
 
+### Prerequisites
 
+- Python 3.10+
+- [Ollama](https://ollama.com/) (running locally)
+- Model: `llama3.2:1b` (optimized for standard workstations)
 
+### Installation
 
-## 🔒 Sécurité
-
-- **Validation des URLs** avant extraction
-- **Sanitisation du contenu** extrait
-- **Gestion sécurisée** des clés API
-- **Logging sécurisé** sans exposition de données sensibles
-
-## 🛣️ Roadmap
-
-- [ ] **Interface Web** - Dashboard de surveillance
-- [ ] **API REST** - Endpoints pour intégration
-- [ ] **ML Personnalisé** - Modèles de pertinence sur mesure  
-- [ ] **Notifications** - Alertes Slack/Discord/Email
-- [ ] **Analyse Multilingue** - Support étendu des langues
-- [ ] **Clustering** - Regroupement automatique des sujets
-- [ ] **Trending Detection** - Détection des sujets émergents
-
-## 🐛 Problèmes Connus
-
-**Limite de taux API**
-```
-Solution: Configurer des délais plus longs dans config.py
+```bash
+pip install -r requirements.txt
+# Ensure pypdf is installed for document support
+pip install pypdf
 ```
 
-**Extraction bloquée par robots.txt**
-```
-Solution: L'agent respecte robots.txt - certains sites sont inaccessibles
-```
+### Running the System
 
-**Timeout sur gros documents**
-```
-Solution: Augmenter les timeouts dans la configuration
-```
+1. **Start the Local LLM**:
+
+    ```bash
+    ollama serve
+    ```
+
+2. **Launch the Dashboard**:
+
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+
+## Security Note
+
+This application is designed for **local deployment**. API keys or external cloud credentials are **not required**. Ensure your local Ollama instance is secured if exposed on a network.
