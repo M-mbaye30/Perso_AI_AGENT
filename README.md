@@ -1,61 +1,70 @@
-# AI Orchestrator
+# Orchestrateur IA Agentique
 
-## Overview
+L'**Orchestrateur IA** est un système autonome piloté par une intelligence agentique et un état global évolutif. Conçu pour l'analyse documentaire et le raisonnement stratégique, il déploie des agents spécialisés coordonnés de manière itérative pour garantir la précision et la robustesse des résultats.
 
-The **AI Orchestrator** is a self-hosted, autonomous multi-agent system designed for document analysis and strategic reasoning. It leverages local Large Language Models (LLMs) to ensure data sovereignty and compliance with strict privacy regulations.
+Contrairement aux pipelines RAG classiques, cette architecture s'appuie sur une boucle de contrôle dynamique où la planification, l'exécution et la validation permettent une auto-correction autonome face aux tâches complexes.
 
-Unlike traditional RAG pipelines, this system employs an **Agentic Architecture** where specialized agents (Analysis, Extraction, Reasoning, Validation) collaborate to solve complex tasks dynamically.
+## Fonctionnalités Clés
 
-## Key Features
-
-- **Data Sovereignty**: Runs entirely On-Premise (Local GPU/CPU). No data leaves your infrastructure.
-- **Agentic Orchestration**: Autonomous planning and delegation of tasks.
-- **Document Intelligence**: Native PDF support with semantic analysis.
-- **Modular Design**: extensible `core` and `agents` architecture.
+- **Souveraineté des Données** : Fonctionne entièrement sur site (GPU/CPU local). Aucune donnée ne quitte votre infrastructure.
+- **Orchestration Agentique** : Planification et délégation autonome des tâches.
+- **Intelligence Documentaire** : Support natif des PDF avec analyse sémantique.
+- **Recherche Web Avancée** : Investigation en ligne avec vérification croisée des sources.
+- **Design Modulaire** : Architecture extensible pour les composants `core` et les `agents`.
 
 ## Architecture
 
-The system is built on a modular Python framework:
+Le système est construit sur un framework Python modulaire :
 
-- **Core**:
-  - `Orchestrator`: Central intelligence managing workflow and state.
-  - `OllamaClient`: Secure wrapper for local LLM inference (e.g., Llama 3).
-- **Agents**:
-  - `DocumentAnalysisAgent`: Summarization and key topic identification.
-  - `ExtractionAgent`: Structured data extraction (JSON) from unstructured text.
-  - `ReasoningAgent`: Complex problem decomposition and planning.
-  - `ValidationAgent`: Quality control and hallucination checking.
+- **Cœur (Core)** :
+  - `Orchestrator` : Intelligence centrale gérant le flux de travail et l'état.
+  - `OllamaClient` : Interface sécurisée pour l'inférence LLM locale (ex: Llama 3) ou l'API Gemini.
+- **Agents** :
+  - `DocumentAnalysisAgent` : Résumé et identification des sujets clés.
+  - `ExtractionAgent` : Extraction de données structurées (JSON) à partir de textes bruts.
+  - `ReasoningAgent` : Décomposition de problèmes complexes et planification.
+  - `ValidationAgent` : Contrôle qualité et vérification des hallucinations.
+  - `WebSearchAgent` : Recherche web approfondie et synthèse d'informations.
+  - `ReportAgent` : Génération de rapports structurés et professionnels.
 
-## Usage
+## Ressources & Présentation
 
-### Prerequisites
+Vous trouverez une présentation détaillée des principes de l'agent et de son architecture dans le dossier dédié :
+
+- [**Présentation : Architecture et Principes**](presentation/L'Agent%20IA%20-%20Architecture%20et%20Principes.pdf)
+
+## Démonstration Vidéo
+
+> [!TIP]
+> **[Regarder la vidéo de démonstration complète ici](demo/demo_video.webm)** (Lien à mettre à jour après l'upload)
+
+![Démo de l'Interface](demo/interface_preview.png)
+
+## Utilisation
+
+### Prérequis
 
 - Python 3.10+
-- [Ollama](https://ollama.com/) (running locally)
-- Model: `llama3.2:1b` (optimized for standard workstations)
+- [Ollama](https://ollama.com/) (pour une exécution locale)
+- Modèle recommandé : `llama3.2:1b` ou `llama3.2:3b`
 
 ### Installation
 
 ```bash
 pip install -r requirements.txt
-# Ensure pypdf is installed for document support
-pip install pypdf
+# Support PDF inclus via pypdf
 ```
 
-### Running the System
+### Lancement du Système
 
-1. **Start the Local LLM**:
+1. **Démarrer l'instance locale Ollama** (si utilisé) :
 
     ```bash
     ollama serve
     ```
 
-2. **Launch the Dashboard**:
+2. **Lancer le Tableau de Bord** :
 
     ```bash
     streamlit run streamlit_app.py
     ```
-
-## Security Note
-
-This application is designed for **local deployment**. API keys or external cloud credentials are **not required**. Ensure your local Ollama instance is secured if exposed on a network.

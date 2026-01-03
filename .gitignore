@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.log
+
+# Exclusions spécifiques pour GitHub
+tests/
+DEPLOYMENT.md
+Dockerfile
+.dockerignore
+.streamlit/

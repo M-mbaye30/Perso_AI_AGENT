@@ -11,16 +11,16 @@ except ImportError:
 
 def extract_text_from_pdf(file_bytes: bytes) -> str:
     """
-    Extract text from a PDF file (in-memory bytes).
+    Extrait le texte d'un fichier PDF (octets en mémoire).
     
     Args:
-        file_bytes (bytes): The raw bytes of the PDF.
+        file_bytes (bytes) : Les octets bruts du PDF.
         
     Returns:
-        str: The extracted text.
+        str : Le texte extrait.
     """
     if PdfReader is None:
-        return "Error: pypdf library not installed. Please install it with `pip install pypdf`."
+        return "Erreur : la bibliothèque pypdf n'est pas installée. Veuillez l'installer avec `pip install pypdf`."
 
     try:
         pdf_file = io.BytesIO(file_bytes)
@@ -33,9 +33,9 @@ def extract_text_from_pdf(file_bytes: bytes) -> str:
                 text.append(page_text)
         
         full_text = "\n\n".join(text)
-        logger.info(f"Extracted {len(full_text)} chars from PDF.")
+        logger.info(f"Extraction de {len(full_text)} caractères du PDF.")
         return full_text
         
     except Exception as e:
-        logger.error(f"Failed to read PDF: {e}")
-        return f"Error reading PDF: {str(e)}"
+        logger.error(f"Échec de la lecture du PDF : {e}")
+        return f"Erreur lors de la lecture du PDF : {str(e)}"
