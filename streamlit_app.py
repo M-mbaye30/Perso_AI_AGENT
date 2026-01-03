@@ -268,6 +268,12 @@ def render_message(role, content, timestamp=None):
         
         # Afficher les résultats des agents
         results = content
+        
+        # Affichage des erreurs globales (ex: échec de planification)
+        if isinstance(results, dict) and "erreur" in results:
+            st.error(results["erreur"])
+            return
+
         for key, value in sorted(results.items()):
             if key == 'original_query' or not key.startswith('step_'): 
                 continue
