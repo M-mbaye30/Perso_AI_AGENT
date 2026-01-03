@@ -21,11 +21,9 @@ class OllamaClient:
             if not self.gemini_api_key:
                 raise ValueError("GEMINI_API_KEY non trouvée dans les variables d'environnement !")
             
-            # Nettoyage du nom du modèle (certains utilisateurs ajoutent 'models/' par erreur)
-            model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
-            if model_name.startswith("models/"):
-                model_name = model_name.replace("models/", "")
-            self.model = model_name
+            # Nettoyage agressif du nom du modèle (ex: retire 'models/' si présent)
+            raw_model = os.getenv("GEMINI_MODEL", "gemini-1.5-flash").strip()
+            self.model = raw_model.split("/")[-1] if "/" in raw_model else raw_model
             
             logger.info(f"Utilisation de l'API Gemini ({self.model})")
         else:

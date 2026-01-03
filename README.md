@@ -33,12 +33,9 @@ Le système est construit sur un framework Python modulaire :
 
 ## Démonstration Vidéo
 
-<div align="center">
-  <video src="demo_video.webm" width="100%" controls></video>
-</div>
-
-> [!TIP]
-> Si la vidéo ne s'affiche pas correctement ci-dessus, vous pouvez la **[visionner ou la télécharger directement ici](demo_video.webm)**.
+> [!VIDEO]
+> L'enregistrement de la démonstration est disponible ici :
+> **[Visionner la vidéo de démonstration (WebM)](demo_video.webm)**
 
 ![Aperçu de l'Interface](interface_preview.png)
 
