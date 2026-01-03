@@ -10,7 +10,7 @@ pypdf==5.1.0
 pyyaml==6.0.2
 
 # LLM API Clients
-google-generativeai
+google-genai>=1.0.0
 
 # Web Search
 duckduckgo-search==8.1.1

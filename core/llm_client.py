@@ -50,57 +50,59 @@ class OllamaClient:
             return self._generate_ollama(prompt, system_prompt, json_mode)
     
     def _generate_gemini(self, prompt: str, system_prompt: Optional[str] = None) -> str:
-        """Génère une réponse en utilisant l'API Gemini avec repli automatique exhaustif."""
+        """Génère une réponse en utilisant le nouveau SDK google-genai avec repli automatique (Syntaxe v1.x)."""
         try:
-            import google.generativeai as genai
-            genai.configure(api_key=self.gemini_api_key)
+            from google import genai
+            from google.genai import types
             
-            # Liste exhaustive suggérée par l'utilisateur (on s'assure du préfixe 'models/')
-            base_models = [
-                self.model,
+            client = genai.Client(api_key=self.gemini_api_key)
+            
+            # Liste exhaustive des modèles à tester (SANS préfixe "models/" pour le nouveau SDK)
+            test_models = [
+                self.model.replace("models/", ""),
                 'gemini-1.5-flash-latest',
+                'gemini-2.0-flash-exp', # Optionnel : Test du dernier cri si dispo
                 'gemini-1.5-flash',
                 'gemini-1.5-pro-latest',
                 'gemini-1.5-pro',
                 'gemini-pro'
             ]
             
-            # Construction de la liste finale avec et sans préfixe, en privilégiant AVEC préfixe
-            test_models = []
-            for m in base_models:
-                if not m: continue
-                # On ajoute d'abord la version avec préfixe (recommandé v0.8.5+)
-                with_prefix = m if m.startswith("models/") else f"models/{m}"
-                if with_prefix not in test_models:
-                    test_models.append(with_prefix)
-                # On ajoute aussi la version sans préfixe au cas où (fallback)
-                without_prefix = m.replace("models/", "")
-                if without_prefix not in test_models:
-                    test_models.append(without_prefix)
+            # Dédoublonnage
+            models_to_try = []
+            for m in test_models:
+                if m and m not in models_to_try:
+                    models_to_try.append(m)
             
             last_exception = None
-            for model_name in test_models:
+            for model_name in models_to_try:
                 try:
-                    logger.info(f"Tentative Gemini avec : {model_name}")
+                    logger.info(f"Tentative (SDK v1.x) avec : {model_name}")
                     
-                    # Déterminer si le modèle supporte system_instruction (v1.5+)
-                    # Note: gemini-pro (v1) ne le supporte pas
-                    is_legacy = "gemini-pro" in model_name and "1.5" not in model_name
+                    # Configuration de la génération
+                    config = types.GenerateContentConfig(
+                        system_instruction=system_prompt if system_prompt else None,
+                    )
                     
-                    if not is_legacy:
-                        model = genai.GenerativeModel(
-                            model_name=model_name,
-                            system_instruction=system_prompt if system_prompt else None
-                        )
-                        response = model.generate_content(prompt)
-                    else:
-                        # Fallback pour gemini-pro (v1)
-                        model = genai.GenerativeModel(model_name=model_name)
+                    # Pour gemini-pro (v1), les instructions système ne sont pas supportées de la même manière
+                    if "gemini-pro" in model_name and "1.5" not in model_name:
+                        config = types.GenerateContentConfig()
                         full_prompt = f"{system_prompt}\n\n{prompt}" if system_prompt else prompt
-                        response = model.generate_content(full_prompt)
+                        response = client.models.generate_content(
+                            model=model_name,
+                            contents=full_prompt,
+                            config=config
+                        )
+                    else:
+                        response = client.models.generate_content(
+                            model=model_name,
+                            contents=prompt,
+                            config=config
+                        )
                     
                     if response and response.text:
                         return response.text
+                        
                 except Exception as e:
                     error_msg = str(e)
                     if "404" in error_msg or "not found" in error_msg.lower():
@@ -110,13 +112,13 @@ class OllamaClient:
                     else:
                         raise e
             
-            raise last_exception or RuntimeError("Aucun des modèles Gemini testés n'est accessible.")
+            raise last_exception or RuntimeError("Aucun des modèles Gemini n'est accessible via le nouveau SDK.")
             
         except ImportError:
-             raise RuntimeError("google-generativeai n'est pas installé.")
+             raise RuntimeError("La bibliothèque 'google-genai' n'est pas installée.")
         except Exception as e:
-            logger.error(f"Erreur fatale Gemini : {e}")
-            raise RuntimeError(f"Erreur API Gemini : {e}")
+            logger.error(f"Erreur avec le SDK google-genai : {e}")
+            raise RuntimeError(f"Erreur API Gemini (Nouveau SDK) : {e}")
     
     def _generate_ollama(self, prompt: str, system_prompt: Optional[str] = None, json_mode: bool = False) -> str:
         """Génère une réponse en utilisant Ollama."""
