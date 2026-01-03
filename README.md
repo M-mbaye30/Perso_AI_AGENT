@@ -29,14 +29,12 @@ Le système est construit sur un framework Python modulaire :
 
 ## Ressources & Présentation
 
-Vous trouverez une présentation détaillée des principes de l'agent et de son architecture dans le dossier dédié :
-
-- [**Présentation : Architecture et Principes**](presentation/L'Agent%20IA%20-%20Architecture%20et%20Principes.pdf)
+- [**Présentation : Architecture et Principes (PDF)**](L'Agent%20IA%20-%20Architecture%20et%20Principes.pdf)
 
 ## Démonstration Vidéo
 
 > [!TIP]
-> **[Regarder la vidéo de démonstration complète ici](demo/demo_video.webm)** (Lien à mettre à jour après l'upload)
+> **[Regarder la vidéo de démonstration complète ici](demo_video.webm)**
 
 ![Démo de l'Interface](demo/interface_preview.png)
 
