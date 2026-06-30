@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import logging
 import time
 from datetime import datetime
@@ -8,9 +9,13 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 # Imports du Cœur
-from core.llm_client import OllamaClient
+from core.llm_client import GeminiClient
 from core.orchestrator import Orchestrator
 from core.pdf_loader import extract_text_from_pdf
+from core.observability import init_observability
+
+# Initialisation de l'observabilité (Phoenix)
+obs_active = init_observability()
 
 # Agents
 from agents.doc_analysis_agent import DocumentAnalysisAgent
@@ -111,7 +116,7 @@ st.markdown("""
 def init_orchestrator():
     if 'orchestrator' not in st.session_state:
         try:
-            llm = OllamaClient(model="llama3.2:1b")
+            llm = GeminiClient(model="gemini-3.5-flash")
             if llm.is_available():
                 orch = Orchestrator(llm)
                 orch.register_agent(DocumentAnalysisAgent(llm))
@@ -123,7 +128,6 @@ def init_orchestrator():
                 st.session_state.orchestrator = orch
                 st.session_state.llm_status = "En Ligne"
                 st.session_state.active_model = llm.model
-                st.session_state.is_gemini = llm.use_gemini
             else:
                 st.session_state.orchestrator = None
                 st.session_state.llm_status = "Hors Ligne"
@@ -151,8 +155,7 @@ def render_sidebar():
         
         # Afficher le modèle actif
         active_model = st.session_state.get('active_model', 'Modèle Inconnu')
-        provider = "Google Gemini" if st.session_state.get('is_gemini') else "Ollama Local"
-        st.caption(f"{provider}: {active_model}")
+        st.caption(f"Google Gemini: {active_model}")
         
         st.markdown("---")
         
@@ -168,6 +171,19 @@ def render_sidebar():
         for module, color in modules:
             st.markdown(f'<div class="module-item"><span style="color: {color}; margin-right: 0.5rem;">●</span>{module}</div>', unsafe_allow_html=True)
         
+        st.markdown("---")
+        
+        # Section Observabilité
+        st.markdown("### 🔍 Observabilité")
+        if obs_active:
+            cloud_mode = os.getenv("PHOENIX_API_KEY") is not None
+            url = "https://app.phoenix.arize.com" if cloud_mode else "http://localhost:6006"
+            label = "Phoenix Cloud" if cloud_mode else "Phoenix Local"
+            st.success(f"Tracing Actif : {label}")
+            st.markdown(f"[Ouvrir le Dashboard]({url})")
+        else:
+            st.warning("Observabilité désactivée")
+
         st.markdown("---")
         
         # PDF Upload in sidebar
@@ -191,8 +207,11 @@ def render_sidebar():
         st.markdown("---")
         
         if st.button("Nouvelle Conversation", use_container_width=True):
+            # Nettoyage total de la session pour forcer le rechargement
             st.session_state.messages = []
             st.session_state.current_pdf = None
+            if 'orchestrator' in st.session_state:
+                del st.session_state.orchestrator
             st.rerun()
 
 def get_agent_badge(agent_name: str) -> str:
@@ -273,9 +292,14 @@ def render_message(role, content, timestamp=None):
         if isinstance(results, dict) and "erreur" in results:
             st.error(results["erreur"])
             return
+        
+        # OPTIMISATION: Réponse directe (pas d'agents appelés)
+        if isinstance(results, dict) and "direct_response" in results:
+            st.write(results["direct_response"])
+            return
 
         for key, value in sorted(results.items()):
-            if key == 'original_query' or not key.startswith('step_'): 
+            if key == 'original_query' or key == 'direct_response' or not key.startswith('step_'): 
                 continue
             
             if key.endswith('_result'):
@@ -411,17 +435,37 @@ def main():
                     txt = f"**Étape {step_num}/{total_steps}** | `{agent_name}` | {status_text}"
                 status_container.info(txt)
             
-            with st.spinner("L'orchestrateur travaille..."):
-                results = st.session_state.orchestrator.run(full_query, status_callback=update_status_final)
-                status_container.success("Traitement terminé !")
-                
-                # Ajouter la réponse de l'assistant
-                st.session_state.messages.append({
-                    'role': 'assistant',
-                    'content': results,
-                    'timestamp': datetime.now().strftime("%H:%M:%S")
-                })
-                st.rerun()
+            try:
+                with st.spinner("L'orchestrateur travaille..."):
+                    results = st.session_state.orchestrator.run(full_query, status_callback=update_status_final)
+                    status_container.success("Traitement terminé !")
+                    
+                    # Ajouter la réponse de l'assistant
+                    st.session_state.messages.append({
+                        'role': 'assistant',
+                        'content': results,
+                        'timestamp': datetime.now().strftime("%H:%M:%S")
+                    })
+                    st.rerun()
+            except Exception as e:
+                status_container.error(f"Erreur d'exécution : {e}")
+                try:
+                    # Repli sur une réponse directe
+                    direct_resp = st.session_state.orchestrator.llm_client.generate(
+                        full_query,
+                        system_prompt=(
+                            "Tu es l'Agent IA Orchestrateur (secours). "
+                            "Réponds directement à la question de l'utilisateur de manière complète en français."
+                        )
+                    )
+                    st.session_state.messages.append({
+                        'role': 'assistant',
+                        'content': {"direct_response": direct_resp},
+                        'timestamp': datetime.now().strftime("%H:%M:%S")
+                    })
+                    st.rerun()
+                except Exception as e_inner:
+                    st.error(f"Erreur critique de secours : {e_inner}")
 
 if __name__ == "__main__":
     main()
