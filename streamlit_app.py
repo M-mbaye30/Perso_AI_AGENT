@@ -436,6 +436,9 @@ def main():
                 status_container.info(txt)
             
             try:
+                status_container.info("Initialisation du graphe LangGraph...")
+                import time
+                time.sleep(1)
                 with st.spinner("L'orchestrateur travaille..."):
                     results = st.session_state.orchestrator.run(full_query, status_callback=update_status_final)
                     status_container.success("Traitement terminé !")
